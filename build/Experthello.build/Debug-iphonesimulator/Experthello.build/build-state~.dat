@@ -1,0 +1,310 @@
+TExperthello
+v7
+r0
+t304484256.147850
+cCheck dependencies
+cProcessInfoPlistFile /Users/pwansch/Documents/source/Experthello/build/Debug-iphonesimulator/Experthello.app/Info.plist Experthello-Info.plist
+cCompileXIB /Users/pwansch/Documents/source/Experthello/FlipsideView.xib
+cCompileXIB /Users/pwansch/Documents/source/Experthello/MainView.xib
+cCompileXIB /Users/pwansch/Documents/source/Experthello/MainWindow.xib
+cProcessPCH /var/folders/e4/e4e5-qCPHbumRFkN5vXPyU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Experthello_Prefix-cqrmxfewamizqfgnuyfhrozppwrw/Experthello_Prefix.pch.gch Experthello_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Experthello.build/Debug-iphonesimulator/Experthello.build/Objects-normal/i386/main.o /Users/pwansch/Documents/source/Experthello/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Experthello.build/Debug-iphonesimulator/Experthello.build/Objects-normal/i386/ExperthelloAppDelegate.o /Users/pwansch/Documents/source/Experthello/Classes/ExperthelloAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Experthello.build/Debug-iphonesimulator/Experthello.build/Objects-normal/i386/MainViewController.o /Users/pwansch/Documents/source/Experthello/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Experthello.build/Debug-iphonesimulator/Experthello.build/Objects-normal/i386/FlipsideViewController.o /Users/pwansch/Documents/source/Experthello/Classes/FlipsideViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/pwansch/Documents/source/Experthello/build/Debug-iphonesimulator/Experthello.app/Experthello normal i386
+cGenerateDSYMFile /Users/pwansch/Documents/source/Experthello/build/Debug-iphonesimulator/Experthello.app.dSYM /Users/pwansch/Documents/source/Experthello/build/Debug-iphonesimulator/Experthello.app/Experthello
+cTouch /Users/pwansch/Documents/source/Experthello/build/Debug-iphonesimulator/Experthello.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk
+c000000004C216B820000000000000132
+t1277258626
+s306
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004BFDFE39000000000027C7D0
+t1274936889
+s2607056
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004BFDFE7C000000000029D5D0
+t1274936956
+s2741712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004BFDFE6E0000000000001466
+t1274936942
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004C0470BB00000000000009CD
+t1275359419
+s2509
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004C0471620000000001D47210
+t1275359586
+s30700048
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/Availability.h
+c000000004BF4CBF90000000000001A3B
+t1274334201
+s6715
+
+N/Users/pwansch/Documents/source/Experthello/Classes/ExperthelloAppDelegate.h
+c000000004C75D80000000000000001EA
+t1282791424
+s490
+i<UIKit/UIKit.h>
+
+N/Users/pwansch/Documents/source/Experthello/Classes/ExperthelloAppDelegate.m
+c000000004C75D8000000000000000AAB
+t1282791424
+s2731
+i"ExperthelloAppDelegate.h"
+i"MainViewController.h"
+
+N/Users/pwansch/Documents/source/Experthello/Classes/FlipsideViewController.h
+c000000004C75D8000000000000000235
+t1282791424
+s565
+i<UIKit/UIKit.h>
+
+N/Users/pwansch/Documents/source/Experthello/Classes/FlipsideViewController.m
+c000000004C75D800000000000000045A
+t1282791424
+s1114
+i"FlipsideViewController.h"
+
+N/Users/pwansch/Documents/source/Experthello/Classes/MainViewController.h
+c000000004C75D8000000000000000138
+t1282791424
+s312
+i"FlipsideViewController.h"
+
+N/Users/pwansch/Documents/source/Experthello/Classes/MainViewController.m
+c000000004C75D80000000000000005D7
+t1282791424
+s1495
+i"MainViewController.h"
+
+N/Users/pwansch/Documents/source/Experthello/Experthello_Prefix.pch
+c000000004C75D8000000000000000148
+t1282791424
+s328
+i<Availability.h>
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/pwansch/Documents/source/Experthello/FlipsideView.xib
+c000000004C75D8000000000000004C62
+t1282791424
+s19554
+
+N/Users/pwansch/Documents/source/Experthello/MainView.xib
+c000000004C75D8000000000000004650
+t1282791424
+s18000
+
+N/Users/pwansch/Documents/source/Experthello/MainWindow.xib
+c000000004C75D80000000000000050A8
+t1282791424
+s20648
+
+N/Users/pwansch/Documents/source/Experthello/build/Debug-iphonesimulator/Experthello.app
+t1282791456
+s272
+
+N/Users/pwansch/Documents/source/Experthello/build/Debug-iphonesimulator/Experthello.app.dSYM
+t1282791456
+s102
+
+N/Users/pwansch/Documents/source/Experthello/build/Debug-iphonesimulator/Experthello.app/Experthello
+t1282791456
+s19240
+
+N/Users/pwansch/Documents/source/Experthello/build/Debug-iphonesimulator/Experthello.app/FlipsideView.nib
+t1282791455
+s1194
+
+N/Users/pwansch/Documents/source/Experthello/build/Debug-iphonesimulator/Experthello.app/Info.plist
+t1282791455
+s607
+
+N/Users/pwansch/Documents/source/Experthello/build/Debug-iphonesimulator/Experthello.app/MainView.nib
+t1282791455
+s1378
+
+N/Users/pwansch/Documents/source/Experthello/build/Debug-iphonesimulator/Experthello.app/MainWindow.nib
+t1282791455
+s1153
+
+N/Users/pwansch/Documents/source/Experthello/build/Debug-iphonesimulator/Experthello.app/PkgInfo
+t1282791455
+s8
+
+N/Users/pwansch/Documents/source/Experthello/build/Experthello.build/Debug-iphonesimulator/Experthello.build/Objects-normal/i386/Experthello.LinkFileList
+c000000004C75D81F000000000000024E
+t1282791455
+s590
+
+N/Users/pwansch/Documents/source/Experthello/build/Experthello.build/Debug-iphonesimulator/Experthello.build/Objects-normal/i386/ExperthelloAppDelegate.o
+t1282791456
+s47988
+
+N/Users/pwansch/Documents/source/Experthello/build/Experthello.build/Debug-iphonesimulator/Experthello.build/Objects-normal/i386/FlipsideViewController.o
+t1282791456
+s37744
+
+N/Users/pwansch/Documents/source/Experthello/build/Experthello.build/Debug-iphonesimulator/Experthello.build/Objects-normal/i386/MainViewController.o
+t1282791456
+s37404
+
+N/Users/pwansch/Documents/source/Experthello/build/Experthello.build/Debug-iphonesimulator/Experthello.build/Objects-normal/i386/main.o
+t1282791456
+s6312
+
+N/Users/pwansch/Documents/source/Experthello/main.m
+c000000004C75D800000000000000016D
+t1282791424
+s365
+i<UIKit/UIKit.h>
+
+N/var/folders/e4/e4e5-qCPHbumRFkN5vXPyU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Experthello_Prefix-cqrmxfewamizqfgnuyfhrozppwrw/Experthello_Prefix.pch.gch
+t1282791455
+s15232016
+
+NExperthello-Info.plist
+c000000004C75D800000000000000038D
+t1282791424
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies304484255#304484255#0(0"0(0#1#0"8618528576#0"0#
+
+CCompileC build/Experthello.build/Debug-iphonesimulator/Experthello.build/Objects-normal/i386/ExperthelloAppDelegate.o /Users/pwansch/Documents/source/Experthello/Classes/ExperthelloAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s304484256.015101
+e304484256.105261
+r1
+xCompileC
+xbuild/Experthello.build/Debug-iphonesimulator/Experthello.build/Objects-normal/i386/ExperthelloAppDelegate.o
+x/Users/pwansch/Documents/source/Experthello/Classes/ExperthelloAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@84"Compile /Users/pwansch/Documents/source/Experthello/Classes/ExperthelloAppDelegate.m304484256#304484256#0(0"0(0#0#76"/Users/pwansch/Documents/source/Experthello/Classes/ExperthelloAppDelegate.m8619043552#2080"    cd /Users/pwansch/Documents/source/Experthello    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/pwansch/Documents/source/Experthello/build/Experthello.build/Debug-iphonesimulator/Experthello.build/Experthello-generated-files.hmap -I/Users/pwansch/Documents/source/Experthello/build/Experthello.build/Debug-iphonesimulator/Experthello.build/Experthello-own-target-headers.hmap -I/Users/pwansch/Documents/source/Experthello/build/Experthello.build/Debug-iphonesimulator/Experthello.build/Experthello-all-target-headers.hmap -iquote /Users/pwansch/Documents/source/Experthello/build/Experthello.build/Debug-iphonesimulator/Experthello.build/Experthello-project-headers.hmap -F/Users/pwansch/Documents/source/Experthello/build/Debug-iphonesimulator -I/Users/pwansch/Documents/source/Experthello/build/Debug-iphonesimulator/include -I/Users/pwansch/Documents/source/Experthello/build/Experthello.build/Debug-iphonesimulator/Experthello.build/DerivedSources/i386 -I/Users/pwansch/Documents/source/Experthello/build/Experthello.build/Debug-iphonesimulator/Experthello.build/DerivedSources -include /var/folders/e4/e4e5-qCPHbumRFkN5vXPyU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Experthello_Prefix-cqrmxfewamizqfgnuyfhrozppwrw/Experthello_Prefix.pch -c /Users/pwansch/Documents/source/Experthello/Classes/ExperthelloAppDelegate.m -o /Users/pwansch/Documents/source/Experthello/build/Experthello.build/Debug-iphonesimulator/Experthello.build/Objects-normal/i386/ExperthelloAppDelegate.o0#
+
+CCompileC build/Experthello.build/Debug-iphonesimulator/Experthello.build/Objects-normal/i386/FlipsideViewController.o /Users/pwansch/Documents/source/Experthello/Classes/FlipsideViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s304484256.016878
+e304484256.111622
+r1
+xCompileC
+xbuild/Experthello.build/Debug-iphonesimulator/Experthello.build/Objects-normal/i386/FlipsideViewController.o
+x/Users/pwansch/Documents/source/Experthello/Classes/FlipsideViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@84"Compile /Users/pwansch/Documents/source/Experthello/Classes/FlipsideViewController.m304484256#304484256#0(0"0(0#0#76"/Users/pwansch/Documents/source/Experthello/Classes/FlipsideViewController.m8618316352#2080"    cd /Users/pwansch/Documents/source/Experthello    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/pwansch/Documents/source/Experthello/build/Experthello.build/Debug-iphonesimulator/Experthello.build/Experthello-generated-files.hmap -I/Users/pwansch/Documents/source/Experthello/build/Experthello.build/Debug-iphonesimulator/Experthello.build/Experthello-own-target-headers.hmap -I/Users/pwansch/Documents/source/Experthello/build/Experthello.build/Debug-iphonesimulator/Experthello.build/Experthello-all-target-headers.hmap -iquote /Users/pwansch/Documents/source/Experthello/build/Experthello.build/Debug-iphonesimulator/Experthello.build/Experthello-project-headers.hmap -F/Users/pwansch/Documents/source/Experthello/build/Debug-iphonesimulator -I/Users/pwansch/Documents/source/Experthello/build/Debug-iphonesimulator/include -I/Users/pwansch/Documents/source/Experthello/build/Experthello.build/Debug-iphonesimulator/Experthello.build/DerivedSources/i386 -I/Users/pwansch/Documents/source/Experthello/build/Experthello.build/Debug-iphonesimulator/Experthello.build/DerivedSources -include /var/folders/e4/e4e5-qCPHbumRFkN5vXPyU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Experthello_Prefix-cqrmxfewamizqfgnuyfhrozppwrw/Experthello_Prefix.pch -c /Users/pwansch/Documents/source/Experthello/Classes/FlipsideViewController.m -o /Users/pwansch/Documents/source/Experthello/build/Experthello.build/Debug-iphonesimulator/Experthello.build/Objects-normal/i386/FlipsideViewController.o0#
+
+CCompileC build/Experthello.build/Debug-iphonesimulator/Experthello.build/Objects-normal/i386/MainViewController.o /Users/pwansch/Documents/source/Experthello/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s304484256.015871
+e304484256.103887
+r1
+xCompileC
+xbuild/Experthello.build/Debug-iphonesimulator/Experthello.build/Objects-normal/i386/MainViewController.o
+x/Users/pwansch/Documents/source/Experthello/Classes/MainViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@80"Compile /Users/pwansch/Documents/source/Experthello/Classes/MainViewController.m304484256#304484256#0(0"0(0#0#72"/Users/pwansch/Documents/source/Experthello/Classes/MainViewController.m8618736256#2072"    cd /Users/pwansch/Documents/source/Experthello    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/pwansch/Documents/source/Experthello/build/Experthello.build/Debug-iphonesimulator/Experthello.build/Experthello-generated-files.hmap -I/Users/pwansch/Documents/source/Experthello/build/Experthello.build/Debug-iphonesimulator/Experthello.build/Experthello-own-target-headers.hmap -I/Users/pwansch/Documents/source/Experthello/build/Experthello.build/Debug-iphonesimulator/Experthello.build/Experthello-all-target-headers.hmap -iquote /Users/pwansch/Documents/source/Experthello/build/Experthello.build/Debug-iphonesimulator/Experthello.build/Experthello-project-headers.hmap -F/Users/pwansch/Documents/source/Experthello/build/Debug-iphonesimulator -I/Users/pwansch/Documents/source/Experthello/build/Debug-iphonesimulator/include -I/Users/pwansch/Documents/source/Experthello/build/Experthello.build/Debug-iphonesimulator/Experthello.build/DerivedSources/i386 -I/Users/pwansch/Documents/source/Experthello/build/Experthello.build/Debug-iphonesimulator/Experthello.build/DerivedSources -include /var/folders/e4/e4e5-qCPHbumRFkN5vXPyU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Experthello_Prefix-cqrmxfewamizqfgnuyfhrozppwrw/Experthello_Prefix.pch -c /Users/pwansch/Documents/source/Experthello/Classes/MainViewController.m -o /Users/pwansch/Documents/source/Experthello/build/Experthello.build/Debug-iphonesimulator/Experthello.build/Objects-normal/i386/MainViewController.o0#
+
+CCompileC build/Experthello.build/Debug-iphonesimulator/Experthello.build/Objects-normal/i386/main.o /Users/pwansch/Documents/source/Experthello/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s304484256.014172
+e304484256.090255
+r1
+xCompileC
+xbuild/Experthello.build/Debug-iphonesimulator/Experthello.build/Objects-normal/i386/main.o
+x/Users/pwansch/Documents/source/Experthello/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@58"Compile /Users/pwansch/Documents/source/Experthello/main.m304484256#304484256#0(0"0(0#0#50"/Users/pwansch/Documents/source/Experthello/main.m8619390624#2036"    cd /Users/pwansch/Documents/source/Experthello    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/pwansch/Documents/source/Experthello/build/Experthello.build/Debug-iphonesimulator/Experthello.build/Experthello-generated-files.hmap -I/Users/pwansch/Documents/source/Experthello/build/Experthello.build/Debug-iphonesimulator/Experthello.build/Experthello-own-target-headers.hmap -I/Users/pwansch/Documents/source/Experthello/build/Experthello.build/Debug-iphonesimulator/Experthello.build/Experthello-all-target-headers.hmap -iquote /Users/pwansch/Documents/source/Experthello/build/Experthello.build/Debug-iphonesimulator/Experthello.build/Experthello-project-headers.hmap -F/Users/pwansch/Documents/source/Experthello/build/Debug-iphonesimulator -I/Users/pwansch/Documents/source/Experthello/build/Debug-iphonesimulator/include -I/Users/pwansch/Documents/source/Experthello/build/Experthello.build/Debug-iphonesimulator/Experthello.build/DerivedSources/i386 -I/Users/pwansch/Documents/source/Experthello/build/Experthello.build/Debug-iphonesimulator/Experthello.build/DerivedSources -include /var/folders/e4/e4e5-qCPHbumRFkN5vXPyU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Experthello_Prefix-cqrmxfewamizqfgnuyfhrozppwrw/Experthello_Prefix.pch -c /Users/pwansch/Documents/source/Experthello/main.m -o /Users/pwansch/Documents/source/Experthello/build/Experthello.build/Debug-iphonesimulator/Experthello.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/pwansch/Documents/source/Experthello/FlipsideView.xib
+s304484255.087726
+e304484255.485682
+r1
+xCompileXIB
+x/Users/pwansch/Documents/source/Experthello/FlipsideView.xib
+lSLF07#2@27"CompileXIB FlipsideView.xib304484255#304484255#0(0"0(0#0#60"/Users/pwansch/Documents/source/Experthello/FlipsideView.xib8598364608#593"    cd /Users/pwansch/Documents/source/Experthello    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/pwansch/Documents/source/Experthello/build/Debug-iphonesimulator/Experthello.app/FlipsideView.nib /Users/pwansch/Documents/source/Experthello/FlipsideView.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+
+CCompileXIB /Users/pwansch/Documents/source/Experthello/MainView.xib
+s304484255.088545
+e304484255.490821
+r1
+xCompileXIB
+x/Users/pwansch/Documents/source/Experthello/MainView.xib
+lSLF07#2@23"CompileXIB MainView.xib304484255#304484255#0(0"0(0#0#56"/Users/pwansch/Documents/source/Experthello/MainView.xib8617296000#585"    cd /Users/pwansch/Documents/source/Experthello    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/pwansch/Documents/source/Experthello/build/Debug-iphonesimulator/Experthello.app/MainView.nib /Users/pwansch/Documents/source/Experthello/MainView.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+
+CCompileXIB /Users/pwansch/Documents/source/Experthello/MainWindow.xib
+s304484255.089258
+e304484255.464167
+r1
+xCompileXIB
+x/Users/pwansch/Documents/source/Experthello/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib304484255#304484255#0(0"0(0#0#58"/Users/pwansch/Documents/source/Experthello/MainWindow.xib8619099200#589"    cd /Users/pwansch/Documents/source/Experthello    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/pwansch/Documents/source/Experthello/build/Debug-iphonesimulator/Experthello.app/MainWindow.nib /Users/pwansch/Documents/source/Experthello/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+
+CGenerateDSYMFile /Users/pwansch/Documents/source/Experthello/build/Debug-iphonesimulator/Experthello.app.dSYM /Users/pwansch/Documents/source/Experthello/build/Debug-iphonesimulator/Experthello.app/Experthello
+s304484256.131024
+e304484256.145371
+r1
+xGenerateDSYMFile
+x/Users/pwansch/Documents/source/Experthello/build/Debug-iphonesimulator/Experthello.app.dSYM
+x/Users/pwansch/Documents/source/Experthello/build/Debug-iphonesimulator/Experthello.app/Experthello
+lSLF07#2@121"GenerateDSYMFile build/Debug-iphonesimulator/Experthello.app.dSYM build/Debug-iphonesimulator/Experthello.app/Experthello304484256#304484256#0(0"0(0#0#99"/Users/pwansch/Documents/source/Experthello/build/Debug-iphonesimulator/Experthello.app/Experthello8619815584#410"    cd /Users/pwansch/Documents/source/Experthello    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/pwansch/Documents/source/Experthello/build/Debug-iphonesimulator/Experthello.app/Experthello -o /Users/pwansch/Documents/source/Experthello/build/Debug-iphonesimulator/Experthello.app.dSYM0#
+
+CLd /Users/pwansch/Documents/source/Experthello/build/Debug-iphonesimulator/Experthello.app/Experthello normal i386
+s304484256.111757
+e304484256.130932
+r1
+xLd
+x/Users/pwansch/Documents/source/Experthello/build/Debug-iphonesimulator/Experthello.app/Experthello
+xnormal
+xi386
+lSLF07#2@104"Link /Users/pwansch/Documents/source/Experthello/build/Debug-iphonesimulator/Experthello.app/Experthello304484256#304484256#0(0"0(0#0#0"8620868736#945"    cd /Users/pwansch/Documents/source/Experthello    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -L/Users/pwansch/Documents/source/Experthello/build/Debug-iphonesimulator -F/Users/pwansch/Documents/source/Experthello/build/Debug-iphonesimulator -filelist /Users/pwansch/Documents/source/Experthello/build/Experthello.build/Debug-iphonesimulator/Experthello.build/Objects-normal/i386/Experthello.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/pwansch/Documents/source/Experthello/build/Debug-iphonesimulator/Experthello.app/Experthello0#
+
+CProcessInfoPlistFile /Users/pwansch/Documents/source/Experthello/build/Debug-iphonesimulator/Experthello.app/Info.plist Experthello-Info.plist
+s304484255.084465
+e304484255.087611
+r1
+xProcessInfoPlistFile
+x/Users/pwansch/Documents/source/Experthello/build/Debug-iphonesimulator/Experthello.app/Info.plist
+xExperthello-Info.plist
+lSLF07#2@30"Process Experthello-Info.plist304484255#304484255#0(0"0(0#0#66"/Users/pwansch/Documents/source/Experthello/Experthello-Info.plist8619141632#506"    cd /Users/pwansch/Documents/source/Experthello    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Experthello-Info.plist -genpkginfo /Users/pwansch/Documents/source/Experthello/build/Debug-iphonesimulator/Experthello.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/pwansch/Documents/source/Experthello/build/Debug-iphonesimulator/Experthello.app/Info.plist0#
+
+CProcessPCH /var/folders/e4/e4e5-qCPHbumRFkN5vXPyU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Experthello_Prefix-cqrmxfewamizqfgnuyfhrozppwrw/Experthello_Prefix.pch.gch Experthello_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s304484255.490934
+e304484256.014046
+r1
+xProcessPCH
+x/var/folders/e4/e4e5-qCPHbumRFkN5vXPyU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Experthello_Prefix-cqrmxfewamizqfgnuyfhrozppwrw/Experthello_Prefix.pch.gch
+xExperthello_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@33"Precompile Experthello_Prefix.pch304484255#304484256#0(0"0(0#0#66"/Users/pwansch/Documents/source/Experthello/Experthello_Prefix.pch8620228032#1919"    cd /Users/pwansch/Documents/source/Experthello    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/pwansch/Documents/source/Experthello/build/Experthello.build/Debug-iphonesimulator/Experthello.build/Experthello-generated-files.hmap -I/Users/pwansch/Documents/source/Experthello/build/Experthello.build/Debug-iphonesimulator/Experthello.build/Experthello-own-target-headers.hmap -I/Users/pwansch/Documents/source/Experthello/build/Experthello.build/Debug-iphonesimulator/Experthello.build/Experthello-all-target-headers.hmap -iquote /Users/pwansch/Documents/source/Experthello/build/Experthello.build/Debug-iphonesimulator/Experthello.build/Experthello-project-headers.hmap -F/Users/pwansch/Documents/source/Experthello/build/Debug-iphonesimulator -I/Users/pwansch/Documents/source/Experthello/build/Debug-iphonesimulator/include -I/Users/pwansch/Documents/source/Experthello/build/Experthello.build/Debug-iphonesimulator/Experthello.build/DerivedSources/i386 -I/Users/pwansch/Documents/source/Experthello/build/Experthello.build/Debug-iphonesimulator/Experthello.build/DerivedSources -c /Users/pwansch/Documents/source/Experthello/Experthello_Prefix.pch -o /var/folders/e4/e4e5-qCPHbumRFkN5vXPyU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Experthello_Prefix-cqrmxfewamizqfgnuyfhrozppwrw/Experthello_Prefix.pch.gch0#
+
+CTouch /Users/pwansch/Documents/source/Experthello/build/Debug-iphonesimulator/Experthello.app
+s304484256.145456
+e304484256.147815
+r1
+xTouch
+x/Users/pwansch/Documents/source/Experthello/build/Debug-iphonesimulator/Experthello.app
+lSLF07#2@93"Touch /Users/pwansch/Documents/source/Experthello/build/Debug-iphonesimulator/Experthello.app304484256#304484256#0(0"0(0#0#0"8618331808#292"    cd /Users/pwansch/Documents/source/Experthello    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/pwansch/Documents/source/Experthello/build/Debug-iphonesimulator/Experthello.app0#
+

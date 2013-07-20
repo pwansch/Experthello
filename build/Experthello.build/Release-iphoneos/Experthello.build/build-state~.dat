@@ -1,0 +1,881 @@
+TExperthello
+v7
+r0
+t305095365.521703
+cCheck dependencies
+cCpResource build/Release-iphoneos/Experthello.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist
+cProcessInfoPlistFile /Users/pwansch/Documents/source/Experthello/build/Release-iphoneos/Experthello.app/Info.plist Experthello-Info.plist
+cCompileXIB /Users/pwansch/Documents/source/Experthello/InfoView.xib
+cCompileXIB /Users/pwansch/Documents/source/Experthello/MainView.xib
+cCompileXIB /Users/pwansch/Documents/source/Experthello/MainWindow.xib
+cCpResource build/Release-iphoneos/Experthello.app/pass.wav pass.wav
+cCpResource build/Release-iphoneos/Experthello.app/illegal.wav illegal.wav
+cCpResource build/Release-iphoneos/Experthello.app/place.wav place.wav
+cCpResource build/Release-iphoneos/Experthello.app/draw.wav draw.wav
+cCpResource build/Release-iphoneos/Experthello.app/lost.wav lost.wav
+cCpResource build/Release-iphoneos/Experthello.app/won.wav won.wav
+cCpResource build/Release-iphoneos/Experthello.app/new.wav new.wav
+cCpResource build/Release-iphoneos/Experthello.app/hint.wav hint.wav
+cCopyPNGFile /Users/pwansch/Documents/source/Experthello/build/Release-iphoneos/Experthello.app/experthello.png experthello.png
+cProcessPCH /var/folders/e4/e4e5-qCPHbumRFkN5vXPyU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Experthello_Prefix-fdolyhlzfasfgfexfpgyeanbqgyo/Experthello_Prefix.pch.gch Experthello_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/e4/e4e5-qCPHbumRFkN5vXPyU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Experthello_Prefix-hadykxftundlencoqsnbyzeycawy/Experthello_Prefix.pch.gch Experthello_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Experthello.build/Release-iphoneos/Experthello.build/Objects-normal/armv6/main.o /Users/pwansch/Documents/source/Experthello/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Experthello.build/Release-iphoneos/Experthello.build/Objects-normal/armv6/ExperthelloAppDelegate.o /Users/pwansch/Documents/source/Experthello/Classes/ExperthelloAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Experthello.build/Release-iphoneos/Experthello.build/Objects-normal/armv6/MainViewController.o /Users/pwansch/Documents/source/Experthello/Classes/MainViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Experthello.build/Release-iphoneos/Experthello.build/Objects-normal/armv6/InfoViewController.o /Users/pwansch/Documents/source/Experthello/Classes/InfoViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Experthello.build/Release-iphoneos/Experthello.build/Objects-normal/armv6/MainView.o /Users/pwansch/Documents/source/Experthello/MainView.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Experthello.build/Release-iphoneos/Experthello.build/Objects-normal/armv6/Algorithm.o /Users/pwansch/Documents/source/Experthello/Algorithm.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Experthello.build/Release-iphoneos/Experthello.build/Objects-normal/armv6/ThreadInfo.o /Users/pwansch/Documents/source/Experthello/ThreadInfo.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Experthello.build/Release-iphoneos/Experthello.build/Objects-normal/armv7/main.o /Users/pwansch/Documents/source/Experthello/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Experthello.build/Release-iphoneos/Experthello.build/Objects-normal/armv7/ExperthelloAppDelegate.o /Users/pwansch/Documents/source/Experthello/Classes/ExperthelloAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Experthello.build/Release-iphoneos/Experthello.build/Objects-normal/armv7/MainViewController.o /Users/pwansch/Documents/source/Experthello/Classes/MainViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Experthello.build/Release-iphoneos/Experthello.build/Objects-normal/armv7/InfoViewController.o /Users/pwansch/Documents/source/Experthello/Classes/InfoViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Experthello.build/Release-iphoneos/Experthello.build/Objects-normal/armv7/MainView.o /Users/pwansch/Documents/source/Experthello/MainView.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Experthello.build/Release-iphoneos/Experthello.build/Objects-normal/armv7/Algorithm.o /Users/pwansch/Documents/source/Experthello/Algorithm.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Experthello.build/Release-iphoneos/Experthello.build/Objects-normal/armv7/ThreadInfo.o /Users/pwansch/Documents/source/Experthello/ThreadInfo.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/pwansch/Documents/source/Experthello/build/Experthello.build/Release-iphoneos/Experthello.build/Objects-normal/armv6/Experthello normal armv6
+cLd /Users/pwansch/Documents/source/Experthello/build/Experthello.build/Release-iphoneos/Experthello.build/Objects-normal/armv7/Experthello normal armv7
+cCreateUniversalBinary /Users/pwansch/Documents/source/Experthello/build/Release-iphoneos/Experthello.app/Experthello normal "armv6 armv7"
+cGenerateDSYMFile /Users/pwansch/Documents/source/Experthello/build/Release-iphoneos/Experthello.app.dSYM /Users/pwansch/Documents/source/Experthello/build/Release-iphoneos/Experthello.app/Experthello
+cProcessProductPackaging "/Users/pwansch/Library/MobileDevice/Provisioning Profiles/6F46B7ED-4816-4961-80E1-57FF44FED273.mobileprovision" /Users/pwansch/Documents/source/Experthello/build/Release-iphoneos/Experthello.app/embedded.mobileprovision
+cTouch /Users/pwansch/Documents/source/Experthello/build/Release-iphoneos/Experthello.app
+cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist /Users/pwansch/Documents/source/Experthello/build/Experthello.build/Release-iphoneos/Experthello.build/Experthello.xcent
+cCodeSign /Users/pwansch/Documents/source/Experthello/build/Release-iphoneos/Experthello.app
+cValidate /Users/pwansch/Documents/source/Experthello/build/Release-iphoneos/Experthello.app
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk
+c000000004C7BAA0C0000000000000110
+t1283172876
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist
+c000000004C5B401F00000000000001A7
+t1281048607
+s423
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist
+c000000004C5B401F00000000000001E5
+t1281048607
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c000000004BFF3B9E000000000037E540
+t1275018142
+s3663168
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.h
+c000000004BFF3B700000000000000A23
+t1275018096
+s2595
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004BFE06FA000000000034A850
+t1274939130
+s3450960
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004BFE07D200000000003E1EB0
+t1274939346
+s4071088
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004BFE07B10000000000001466
+t1274939313
+s5222
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004C296E2A00000000000009CD
+t1277783594
+s2509
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004C296F120000000002D563E0
+t1277783826
+s47539168
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/usr/include/Availability.h
+c000000004BF4D50E0000000000001A3B
+t1274336526
+s6715
+
+N/Users/pwansch/Documents/source/Experthello/Algorithm.h
+c000000004C7EEB630000000000000446
+t1283386211
+s1094
+
+N/Users/pwansch/Documents/source/Experthello/Algorithm.m
+c000000004C7EEBF60000000000007E64
+t1283386358
+s32356
+i"Algorithm.h"
+i"MainView.h"
+
+N/Users/pwansch/Documents/source/Experthello/Classes/ExperthelloAppDelegate.h
+c000000004C7EFA2400000000000001E5
+t1283389988
+s485
+i<UIKit/UIKit.h>
+
+N/Users/pwansch/Documents/source/Experthello/Classes/ExperthelloAppDelegate.m
+c000000004C7EFA5D0000000000000C42
+t1283390045
+s3138
+i"ExperthelloAppDelegate.h"
+i"MainViewController.h"
+
+N/Users/pwansch/Documents/source/Experthello/Classes/InfoViewController.h
+c000000004C7EF9780000000000000336
+t1283389816
+s822
+i<UIKit/UIKit.h>
+
+N/Users/pwansch/Documents/source/Experthello/Classes/InfoViewController.m
+c000000004C7EFA0C00000000000005E0
+t1283389964
+s1504
+i"InfoViewController.h"
+i"MainViewController.h"
+
+N/Users/pwansch/Documents/source/Experthello/Classes/MainViewController.h
+c000000004C7EEEA10000000000000298
+t1283387041
+s664
+i"InfoViewController.h"
+
+N/Users/pwansch/Documents/source/Experthello/Classes/MainViewController.m
+c000000004C7EF163000000000000081F
+t1283387747
+s2079
+i"MainViewController.h"
+i"MainView.h"
+
+N/Users/pwansch/Documents/source/Experthello/Experthello_Prefix.pch
+c000000004C75D8000000000000000148
+t1282791424
+s328
+i<Availability.h>
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/pwansch/Documents/source/Experthello/InfoView.xib
+c000000004C7F0BBA0000000000008981
+t1283394490
+s35201
+
+N/Users/pwansch/Documents/source/Experthello/MainView.h
+c000000004C7EF1E600000000000005EB
+t1283387878
+s1515
+i<UIKit/UIKit.h>
+i<AudioToolbox/AudioToolbox.h>
+i"Algorithm.h"
+i"ThreadInfo.h"
+
+N/Users/pwansch/Documents/source/Experthello/MainView.m
+c000000004C7F03FE00000000000047BD
+t1283392510
+s18365
+i"MainView.h"
+i"Algorithm.h"
+i"MainViewController.h"
+
+N/Users/pwansch/Documents/source/Experthello/MainView.xib
+c000000004C7EEF6F0000000000006A6C
+t1283387247
+s27244
+
+N/Users/pwansch/Documents/source/Experthello/MainWindow.xib
+c000000004C75D80000000000000050A8
+t1282791424
+s20648
+
+N/Users/pwansch/Documents/source/Experthello/ThreadInfo.h
+c000000004C7C4F3400000000000001F5
+t1283215156
+s501
+i<Foundation/Foundation.h>
+i"Algorithm.h"
+
+N/Users/pwansch/Documents/source/Experthello/ThreadInfo.m
+c000000004C7EF9320000000000000170
+t1283389746
+s368
+i"ThreadInfo.h"
+
+N/Users/pwansch/Documents/source/Experthello/build/Experthello.build/Release-iphoneos/Experthello.build/Experthello.xcent
+t1283402561
+s397
+
+N/Users/pwansch/Documents/source/Experthello/build/Experthello.build/Release-iphoneos/Experthello.build/Objects-normal/armv6/Algorithm.o
+t1283402561
+s51836
+
+N/Users/pwansch/Documents/source/Experthello/build/Experthello.build/Release-iphoneos/Experthello.build/Objects-normal/armv6/Experthello
+t1283402561
+s62792
+
+N/Users/pwansch/Documents/source/Experthello/build/Experthello.build/Release-iphoneos/Experthello.build/Objects-normal/armv6/Experthello.LinkFileList
+c000000004C7F2B3F00000000000003D2
+t1283402559
+s978
+
+N/Users/pwansch/Documents/source/Experthello/build/Experthello.build/Release-iphoneos/Experthello.build/Objects-normal/armv6/ExperthelloAppDelegate.o
+t1283402560
+s48436
+
+N/Users/pwansch/Documents/source/Experthello/build/Experthello.build/Release-iphoneos/Experthello.build/Objects-normal/armv6/InfoViewController.o
+t1283402560
+s42428
+
+N/Users/pwansch/Documents/source/Experthello/build/Experthello.build/Release-iphoneos/Experthello.build/Objects-normal/armv6/MainView.o
+t1283402561
+s75916
+
+N/Users/pwansch/Documents/source/Experthello/build/Experthello.build/Release-iphoneos/Experthello.build/Objects-normal/armv6/MainViewController.o
+t1283402560
+s44448
+
+N/Users/pwansch/Documents/source/Experthello/build/Experthello.build/Release-iphoneos/Experthello.build/Objects-normal/armv6/ThreadInfo.o
+t1283402560
+s11240
+
+N/Users/pwansch/Documents/source/Experthello/build/Experthello.build/Release-iphoneos/Experthello.build/Objects-normal/armv6/main.o
+t1283402560
+s6448
+
+N/Users/pwansch/Documents/source/Experthello/build/Experthello.build/Release-iphoneos/Experthello.build/Objects-normal/armv7/Algorithm.o
+t1283402561
+s50112
+
+N/Users/pwansch/Documents/source/Experthello/build/Experthello.build/Release-iphoneos/Experthello.build/Objects-normal/armv7/Experthello
+t1283402561
+s58220
+
+N/Users/pwansch/Documents/source/Experthello/build/Experthello.build/Release-iphoneos/Experthello.build/Objects-normal/armv7/Experthello.LinkFileList
+c000000004C7F2B3F00000000000003D2
+t1283402559
+s978
+
+N/Users/pwansch/Documents/source/Experthello/build/Experthello.build/Release-iphoneos/Experthello.build/Objects-normal/armv7/ExperthelloAppDelegate.o
+t1283402561
+s48448
+
+N/Users/pwansch/Documents/source/Experthello/build/Experthello.build/Release-iphoneos/Experthello.build/Objects-normal/armv7/InfoViewController.o
+t1283402561
+s42360
+
+N/Users/pwansch/Documents/source/Experthello/build/Experthello.build/Release-iphoneos/Experthello.build/Objects-normal/armv7/MainView.o
+t1283402561
+s73696
+
+N/Users/pwansch/Documents/source/Experthello/build/Experthello.build/Release-iphoneos/Experthello.build/Objects-normal/armv7/MainViewController.o
+t1283402561
+s44424
+
+N/Users/pwansch/Documents/source/Experthello/build/Experthello.build/Release-iphoneos/Experthello.build/Objects-normal/armv7/ThreadInfo.o
+t1283402561
+s11244
+
+N/Users/pwansch/Documents/source/Experthello/build/Experthello.build/Release-iphoneos/Experthello.build/Objects-normal/armv7/main.o
+t1283402560
+s6428
+
+N/Users/pwansch/Documents/source/Experthello/build/Experthello.build/Release-iphoneos/Experthello.build/com.apple.build-tools.platform.validate
+t2
+s0
+
+N/Users/pwansch/Documents/source/Experthello/build/Release-iphoneos/Experthello.app
+t1283402565
+s714
+
+N/Users/pwansch/Documents/source/Experthello/build/Release-iphoneos/Experthello.app.dSYM
+t1283402561
+s102
+
+N/Users/pwansch/Documents/source/Experthello/build/Release-iphoneos/Experthello.app/Experthello
+t1283402561
+s127852
+
+N/Users/pwansch/Documents/source/Experthello/build/Release-iphoneos/Experthello.app/Info.plist
+t1283402559
+s767
+
+N/Users/pwansch/Documents/source/Experthello/build/Release-iphoneos/Experthello.app/InfoView.nib
+t1283402559
+s4013
+
+N/Users/pwansch/Documents/source/Experthello/build/Release-iphoneos/Experthello.app/MainView.nib
+t1283402559
+s2225
+
+N/Users/pwansch/Documents/source/Experthello/build/Release-iphoneos/Experthello.app/MainWindow.nib
+t1283402559
+s1153
+
+N/Users/pwansch/Documents/source/Experthello/build/Release-iphoneos/Experthello.app/PkgInfo
+t1283402559
+s8
+
+N/Users/pwansch/Documents/source/Experthello/build/Release-iphoneos/Experthello.app/ResourceRules.plist
+t1283402559
+s485
+
+N/Users/pwansch/Documents/source/Experthello/build/Release-iphoneos/Experthello.app/draw.wav
+t1283402559
+s24130
+
+N/Users/pwansch/Documents/source/Experthello/build/Release-iphoneos/Experthello.app/embedded.mobileprovision
+t1283402561
+s7054
+
+N/Users/pwansch/Documents/source/Experthello/build/Release-iphoneos/Experthello.app/experthello.png
+t1283402559
+s6320
+
+N/Users/pwansch/Documents/source/Experthello/build/Release-iphoneos/Experthello.app/hint.wav
+t1283402559
+s5642
+
+N/Users/pwansch/Documents/source/Experthello/build/Release-iphoneos/Experthello.app/illegal.wav
+t1283402559
+s1258
+
+N/Users/pwansch/Documents/source/Experthello/build/Release-iphoneos/Experthello.app/lost.wav
+t1283402559
+s33084
+
+N/Users/pwansch/Documents/source/Experthello/build/Release-iphoneos/Experthello.app/new.wav
+t1283402559
+s8920
+
+N/Users/pwansch/Documents/source/Experthello/build/Release-iphoneos/Experthello.app/pass.wav
+t1283402559
+s5584
+
+N/Users/pwansch/Documents/source/Experthello/build/Release-iphoneos/Experthello.app/place.wav
+t1283402559
+s364
+
+N/Users/pwansch/Documents/source/Experthello/build/Release-iphoneos/Experthello.app/won.wav
+t1283402559
+s24552
+
+N/Users/pwansch/Documents/source/Experthello/draw.wav
+c000000003188CDF00000000000005E42
+t831049200
+s24130
+
+N/Users/pwansch/Documents/source/Experthello/experthello.png
+c000000004C7F03C700000000000019F9
+t1283392455
+s6649
+
+N/Users/pwansch/Documents/source/Experthello/hint.wav
+c000000003188CDF0000000000000160A
+t831049200
+s5642
+
+N/Users/pwansch/Documents/source/Experthello/illegal.wav
+c000000003188CDF000000000000004EA
+t831049200
+s1258
+
+N/Users/pwansch/Documents/source/Experthello/lost.wav
+c000000003188CDF0000000000000813C
+t831049200
+s33084
+
+N/Users/pwansch/Documents/source/Experthello/main.m
+c000000004C7EFA980000000000000168
+t1283390104
+s360
+i<UIKit/UIKit.h>
+
+N/Users/pwansch/Documents/source/Experthello/new.wav
+c000000003188CDF000000000000022D8
+t831049200
+s8920
+
+N/Users/pwansch/Documents/source/Experthello/pass.wav
+c000000003188CDF000000000000015D0
+t831049200
+s5584
+
+N/Users/pwansch/Documents/source/Experthello/place.wav
+c000000003188CDF0000000000000016C
+t831049200
+s364
+
+N/Users/pwansch/Documents/source/Experthello/won.wav
+c000000003188CDF00000000000005FE8
+t831049200
+s24552
+
+N/Users/pwansch/Library/MobileDevice/Provisioning Profiles/0FEE0C8F-D76D-4EC9-A548-F945F311F8A1.mobileprovision
+c000000004C7DDBB90000000000001BF9
+t1283316665
+s7161
+
+N/Users/pwansch/Library/MobileDevice/Provisioning Profiles/6F46B7ED-4816-4961-80E1-57FF44FED273.mobileprovision
+c000000004C7F2AF60000000000001B8E
+t1283402486
+s7054
+
+N/var/folders/e4/e4e5-qCPHbumRFkN5vXPyU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Experthello_Prefix-fdolyhlzfasfgfexfpgyeanbqgyo/Experthello_Prefix.pch.gch
+t1283402560
+s9631280
+
+N/var/folders/e4/e4e5-qCPHbumRFkN5vXPyU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Experthello_Prefix-hadykxftundlencoqsnbyzeycawy/Experthello_Prefix.pch.gch
+t1283402560
+s10090032
+
+NExperthello-Info.plist
+c000000004C7F18590000000000000376
+t1283397721
+s886
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies305095359#305095359#0(0"0(0#1#0"8609513152#0"0#
+
+CCodeSign /Users/pwansch/Documents/source/Experthello/build/Release-iphoneos/Experthello.app
+s305095361.957698
+e305095365.408976
+r1
+xCodeSign
+x/Users/pwansch/Documents/source/Experthello/build/Release-iphoneos/Experthello.app
+lSLF07#2@47"CodeSign build/Release-iphoneos/Experthello.app305095361#305095365#0(0"0(0#0#82"/Users/pwansch/Documents/source/Experthello/build/Release-iphoneos/Experthello.app8606187712#684"    cd /Users/pwansch/Documents/source/Experthello    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Distribution: Peter Wansch" --resource-rules=/Users/pwansch/Documents/source/Experthello/build/Release-iphoneos/Experthello.app/ResourceRules.plist --entitlements /Users/pwansch/Documents/source/Experthello/build/Experthello.build/Release-iphoneos/Experthello.build/Experthello.xcent /Users/pwansch/Documents/source/Experthello/build/Release-iphoneos/Experthello.app0#
+
+CCompileC build/Experthello.build/Release-iphoneos/Experthello.build/Objects-normal/armv6/Algorithm.o /Users/pwansch/Documents/source/Experthello/Algorithm.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s305095360.648347
+e305095361.370699
+r1
+xCompileC
+xbuild/Experthello.build/Release-iphoneos/Experthello.build/Objects-normal/armv6/Algorithm.o
+x/Users/pwansch/Documents/source/Experthello/Algorithm.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@63"Compile /Users/pwansch/Documents/source/Experthello/Algorithm.m305095360#305095361#0(0"0(0#0#55"/Users/pwansch/Documents/source/Experthello/Algorithm.m8611877312#1928"    cd /Users/pwansch/Documents/source/Experthello    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/pwansch/Documents/source/Experthello/build/Experthello.build/Release-iphoneos/Experthello.build/Experthello-generated-files.hmap -I/Users/pwansch/Documents/source/Experthello/build/Experthello.build/Release-iphoneos/Experthello.build/Experthello-own-target-headers.hmap -I/Users/pwansch/Documents/source/Experthello/build/Experthello.build/Release-iphoneos/Experthello.build/Experthello-all-target-headers.hmap -iquote /Users/pwansch/Documents/source/Experthello/build/Experthello.build/Release-iphoneos/Experthello.build/Experthello-project-headers.hmap -F/Users/pwansch/Documents/source/Experthello/build/Release-iphoneos -I/Users/pwansch/Documents/source/Experthello/build/Release-iphoneos/include -I/Users/pwansch/Documents/source/Experthello/build/Experthello.build/Release-iphoneos/Experthello.build/DerivedSources/armv6 -I/Users/pwansch/Documents/source/Experthello/build/Experthello.build/Release-iphoneos/Experthello.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/e4/e4e5-qCPHbumRFkN5vXPyU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Experthello_Prefix-fdolyhlzfasfgfexfpgyeanbqgyo/Experthello_Prefix.pch -c /Users/pwansch/Documents/source/Experthello/Algorithm.m -o /Users/pwansch/Documents/source/Experthello/build/Experthello.build/Release-iphoneos/Experthello.build/Objects-normal/armv6/Algorithm.o0#
+
+CCompileC build/Experthello.build/Release-iphoneos/Experthello.build/Objects-normal/armv6/ExperthelloAppDelegate.o /Users/pwansch/Documents/source/Experthello/Classes/ExperthelloAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s305095360.513191
+e305095360.648219
+r1
+xCompileC
+xbuild/Experthello.build/Release-iphoneos/Experthello.build/Objects-normal/armv6/ExperthelloAppDelegate.o
+x/Users/pwansch/Documents/source/Experthello/Classes/ExperthelloAppDelegate.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@84"Compile /Users/pwansch/Documents/source/Experthello/Classes/ExperthelloAppDelegate.m305095360#305095360#0(0"0(0#0#76"/Users/pwansch/Documents/source/Experthello/Classes/ExperthelloAppDelegate.m8611915136#1962"    cd /Users/pwansch/Documents/source/Experthello    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/pwansch/Documents/source/Experthello/build/Experthello.build/Release-iphoneos/Experthello.build/Experthello-generated-files.hmap -I/Users/pwansch/Documents/source/Experthello/build/Experthello.build/Release-iphoneos/Experthello.build/Experthello-own-target-headers.hmap -I/Users/pwansch/Documents/source/Experthello/build/Experthello.build/Release-iphoneos/Experthello.build/Experthello-all-target-headers.hmap -iquote /Users/pwansch/Documents/source/Experthello/build/Experthello.build/Release-iphoneos/Experthello.build/Experthello-project-headers.hmap -F/Users/pwansch/Documents/source/Experthello/build/Release-iphoneos -I/Users/pwansch/Documents/source/Experthello/build/Release-iphoneos/include -I/Users/pwansch/Documents/source/Experthello/build/Experthello.build/Release-iphoneos/Experthello.build/DerivedSources/armv6 -I/Users/pwansch/Documents/source/Experthello/build/Experthello.build/Release-iphoneos/Experthello.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/e4/e4e5-qCPHbumRFkN5vXPyU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Experthello_Prefix-fdolyhlzfasfgfexfpgyeanbqgyo/Experthello_Prefix.pch -c /Users/pwansch/Documents/source/Experthello/Classes/ExperthelloAppDelegate.m -o /Users/pwansch/Documents/source/Experthello/build/Experthello.build/Release-iphoneos/Experthello.build/Objects-normal/armv6/ExperthelloAppDelegate.o0#
+
+CCompileC build/Experthello.build/Release-iphoneos/Experthello.build/Objects-normal/armv6/InfoViewController.o /Users/pwansch/Documents/source/Experthello/Classes/InfoViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s305095360.519082
+e305095360.693273
+r1
+xCompileC
+xbuild/Experthello.build/Release-iphoneos/Experthello.build/Objects-normal/armv6/InfoViewController.o
+x/Users/pwansch/Documents/source/Experthello/Classes/InfoViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@80"Compile /Users/pwansch/Documents/source/Experthello/Classes/InfoViewController.m305095360#305095360#0(0"0(0#0#72"/Users/pwansch/Documents/source/Experthello/Classes/InfoViewController.m8610721152#1954"    cd /Users/pwansch/Documents/source/Experthello    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/pwansch/Documents/source/Experthello/build/Experthello.build/Release-iphoneos/Experthello.build/Experthello-generated-files.hmap -I/Users/pwansch/Documents/source/Experthello/build/Experthello.build/Release-iphoneos/Experthello.build/Experthello-own-target-headers.hmap -I/Users/pwansch/Documents/source/Experthello/build/Experthello.build/Release-iphoneos/Experthello.build/Experthello-all-target-headers.hmap -iquote /Users/pwansch/Documents/source/Experthello/build/Experthello.build/Release-iphoneos/Experthello.build/Experthello-project-headers.hmap -F/Users/pwansch/Documents/source/Experthello/build/Release-iphoneos -I/Users/pwansch/Documents/source/Experthello/build/Release-iphoneos/include -I/Users/pwansch/Documents/source/Experthello/build/Experthello.build/Release-iphoneos/Experthello.build/DerivedSources/armv6 -I/Users/pwansch/Documents/source/Experthello/build/Experthello.build/Release-iphoneos/Experthello.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/e4/e4e5-qCPHbumRFkN5vXPyU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Experthello_Prefix-fdolyhlzfasfgfexfpgyeanbqgyo/Experthello_Prefix.pch -c /Users/pwansch/Documents/source/Experthello/Classes/InfoViewController.m -o /Users/pwansch/Documents/source/Experthello/build/Experthello.build/Release-iphoneos/Experthello.build/Objects-normal/armv6/InfoViewController.o0#
+
+CCompileC build/Experthello.build/Release-iphoneos/Experthello.build/Objects-normal/armv6/MainView.o /Users/pwansch/Documents/source/Experthello/MainView.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s305095360.585217
+e305095361.548183
+r1
+xCompileC
+xbuild/Experthello.build/Release-iphoneos/Experthello.build/Objects-normal/armv6/MainView.o
+x/Users/pwansch/Documents/source/Experthello/MainView.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@62"Compile /Users/pwansch/Documents/source/Experthello/MainView.m305095360#305095361#0(0"0(0#0#54"/Users/pwansch/Documents/source/Experthello/MainView.m8612744640#1926"    cd /Users/pwansch/Documents/source/Experthello    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/pwansch/Documents/source/Experthello/build/Experthello.build/Release-iphoneos/Experthello.build/Experthello-generated-files.hmap -I/Users/pwansch/Documents/source/Experthello/build/Experthello.build/Release-iphoneos/Experthello.build/Experthello-own-target-headers.hmap -I/Users/pwansch/Documents/source/Experthello/build/Experthello.build/Release-iphoneos/Experthello.build/Experthello-all-target-headers.hmap -iquote /Users/pwansch/Documents/source/Experthello/build/Experthello.build/Release-iphoneos/Experthello.build/Experthello-project-headers.hmap -F/Users/pwansch/Documents/source/Experthello/build/Release-iphoneos -I/Users/pwansch/Documents/source/Experthello/build/Release-iphoneos/include -I/Users/pwansch/Documents/source/Experthello/build/Experthello.build/Release-iphoneos/Experthello.build/DerivedSources/armv6 -I/Users/pwansch/Documents/source/Experthello/build/Experthello.build/Release-iphoneos/Experthello.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/e4/e4e5-qCPHbumRFkN5vXPyU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Experthello_Prefix-fdolyhlzfasfgfexfpgyeanbqgyo/Experthello_Prefix.pch -c /Users/pwansch/Documents/source/Experthello/MainView.m -o /Users/pwansch/Documents/source/Experthello/build/Experthello.build/Release-iphoneos/Experthello.build/Objects-normal/armv6/MainView.o0#
+
+CCompileC build/Experthello.build/Release-iphoneos/Experthello.build/Objects-normal/armv6/MainViewController.o /Users/pwansch/Documents/source/Experthello/Classes/MainViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s305095360.514181
+e305095360.711271
+r1
+xCompileC
+xbuild/Experthello.build/Release-iphoneos/Experthello.build/Objects-normal/armv6/MainViewController.o
+x/Users/pwansch/Documents/source/Experthello/Classes/MainViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@80"Compile /Users/pwansch/Documents/source/Experthello/Classes/MainViewController.m305095360#305095360#0(0"0(0#0#72"/Users/pwansch/Documents/source/Experthello/Classes/MainViewController.m8611473216#1954"    cd /Users/pwansch/Documents/source/Experthello    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/pwansch/Documents/source/Experthello/build/Experthello.build/Release-iphoneos/Experthello.build/Experthello-generated-files.hmap -I/Users/pwansch/Documents/source/Experthello/build/Experthello.build/Release-iphoneos/Experthello.build/Experthello-own-target-headers.hmap -I/Users/pwansch/Documents/source/Experthello/build/Experthello.build/Release-iphoneos/Experthello.build/Experthello-all-target-headers.hmap -iquote /Users/pwansch/Documents/source/Experthello/build/Experthello.build/Release-iphoneos/Experthello.build/Experthello-project-headers.hmap -F/Users/pwansch/Documents/source/Experthello/build/Release-iphoneos -I/Users/pwansch/Documents/source/Experthello/build/Release-iphoneos/include -I/Users/pwansch/Documents/source/Experthello/build/Experthello.build/Release-iphoneos/Experthello.build/DerivedSources/armv6 -I/Users/pwansch/Documents/source/Experthello/build/Experthello.build/Release-iphoneos/Experthello.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/e4/e4e5-qCPHbumRFkN5vXPyU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Experthello_Prefix-fdolyhlzfasfgfexfpgyeanbqgyo/Experthello_Prefix.pch -c /Users/pwansch/Documents/source/Experthello/Classes/MainViewController.m -o /Users/pwansch/Documents/source/Experthello/build/Experthello.build/Release-iphoneos/Experthello.build/Objects-normal/armv6/MainViewController.o0#
+
+CCompileC build/Experthello.build/Release-iphoneos/Experthello.build/Objects-normal/armv6/ThreadInfo.o /Users/pwansch/Documents/source/Experthello/ThreadInfo.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s305095360.693495
+e305095360.789382
+r1
+xCompileC
+xbuild/Experthello.build/Release-iphoneos/Experthello.build/Objects-normal/armv6/ThreadInfo.o
+x/Users/pwansch/Documents/source/Experthello/ThreadInfo.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@64"Compile /Users/pwansch/Documents/source/Experthello/ThreadInfo.m305095360#305095360#0(0"0(0#0#56"/Users/pwansch/Documents/source/Experthello/ThreadInfo.m8610898496#1930"    cd /Users/pwansch/Documents/source/Experthello    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/pwansch/Documents/source/Experthello/build/Experthello.build/Release-iphoneos/Experthello.build/Experthello-generated-files.hmap -I/Users/pwansch/Documents/source/Experthello/build/Experthello.build/Release-iphoneos/Experthello.build/Experthello-own-target-headers.hmap -I/Users/pwansch/Documents/source/Experthello/build/Experthello.build/Release-iphoneos/Experthello.build/Experthello-all-target-headers.hmap -iquote /Users/pwansch/Documents/source/Experthello/build/Experthello.build/Release-iphoneos/Experthello.build/Experthello-project-headers.hmap -F/Users/pwansch/Documents/source/Experthello/build/Release-iphoneos -I/Users/pwansch/Documents/source/Experthello/build/Release-iphoneos/include -I/Users/pwansch/Documents/source/Experthello/build/Experthello.build/Release-iphoneos/Experthello.build/DerivedSources/armv6 -I/Users/pwansch/Documents/source/Experthello/build/Experthello.build/Release-iphoneos/Experthello.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/e4/e4e5-qCPHbumRFkN5vXPyU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Experthello_Prefix-fdolyhlzfasfgfexfpgyeanbqgyo/Experthello_Prefix.pch -c /Users/pwansch/Documents/source/Experthello/ThreadInfo.m -o /Users/pwansch/Documents/source/Experthello/build/Experthello.build/Release-iphoneos/Experthello.build/Objects-normal/armv6/ThreadInfo.o0#
+
+CCompileC build/Experthello.build/Release-iphoneos/Experthello.build/Objects-normal/armv6/main.o /Users/pwansch/Documents/source/Experthello/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s305095360.512159
+e305095360.585082
+r1
+xCompileC
+xbuild/Experthello.build/Release-iphoneos/Experthello.build/Objects-normal/armv6/main.o
+x/Users/pwansch/Documents/source/Experthello/main.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@58"Compile /Users/pwansch/Documents/source/Experthello/main.m305095360#305095360#0(0"0(0#0#50"/Users/pwansch/Documents/source/Experthello/main.m8612731488#1918"    cd /Users/pwansch/Documents/source/Experthello    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/pwansch/Documents/source/Experthello/build/Experthello.build/Release-iphoneos/Experthello.build/Experthello-generated-files.hmap -I/Users/pwansch/Documents/source/Experthello/build/Experthello.build/Release-iphoneos/Experthello.build/Experthello-own-target-headers.hmap -I/Users/pwansch/Documents/source/Experthello/build/Experthello.build/Release-iphoneos/Experthello.build/Experthello-all-target-headers.hmap -iquote /Users/pwansch/Documents/source/Experthello/build/Experthello.build/Release-iphoneos/Experthello.build/Experthello-project-headers.hmap -F/Users/pwansch/Documents/source/Experthello/build/Release-iphoneos -I/Users/pwansch/Documents/source/Experthello/build/Release-iphoneos/include -I/Users/pwansch/Documents/source/Experthello/build/Experthello.build/Release-iphoneos/Experthello.build/DerivedSources/armv6 -I/Users/pwansch/Documents/source/Experthello/build/Experthello.build/Release-iphoneos/Experthello.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/e4/e4e5-qCPHbumRFkN5vXPyU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Experthello_Prefix-fdolyhlzfasfgfexfpgyeanbqgyo/Experthello_Prefix.pch -c /Users/pwansch/Documents/source/Experthello/main.m -o /Users/pwansch/Documents/source/Experthello/build/Experthello.build/Release-iphoneos/Experthello.build/Objects-normal/armv6/main.o0#
+
+CCompileC build/Experthello.build/Release-iphoneos/Experthello.build/Objects-normal/armv7/Algorithm.o /Users/pwansch/Documents/source/Experthello/Algorithm.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s305095361.182513
+e305095361.894696
+r1
+xCompileC
+xbuild/Experthello.build/Release-iphoneos/Experthello.build/Objects-normal/armv7/Algorithm.o
+x/Users/pwansch/Documents/source/Experthello/Algorithm.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@63"Compile /Users/pwansch/Documents/source/Experthello/Algorithm.m305095361#305095361#0(0"0(0#0#55"/Users/pwansch/Documents/source/Experthello/Algorithm.m8609261600#1928"    cd /Users/pwansch/Documents/source/Experthello    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/pwansch/Documents/source/Experthello/build/Experthello.build/Release-iphoneos/Experthello.build/Experthello-generated-files.hmap -I/Users/pwansch/Documents/source/Experthello/build/Experthello.build/Release-iphoneos/Experthello.build/Experthello-own-target-headers.hmap -I/Users/pwansch/Documents/source/Experthello/build/Experthello.build/Release-iphoneos/Experthello.build/Experthello-all-target-headers.hmap -iquote /Users/pwansch/Documents/source/Experthello/build/Experthello.build/Release-iphoneos/Experthello.build/Experthello-project-headers.hmap -F/Users/pwansch/Documents/source/Experthello/build/Release-iphoneos -I/Users/pwansch/Documents/source/Experthello/build/Release-iphoneos/include -I/Users/pwansch/Documents/source/Experthello/build/Experthello.build/Release-iphoneos/Experthello.build/DerivedSources/armv7 -I/Users/pwansch/Documents/source/Experthello/build/Experthello.build/Release-iphoneos/Experthello.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/e4/e4e5-qCPHbumRFkN5vXPyU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Experthello_Prefix-hadykxftundlencoqsnbyzeycawy/Experthello_Prefix.pch -c /Users/pwansch/Documents/source/Experthello/Algorithm.m -o /Users/pwansch/Documents/source/Experthello/build/Experthello.build/Release-iphoneos/Experthello.build/Objects-normal/armv7/Algorithm.o0#
+
+CCompileC build/Experthello.build/Release-iphoneos/Experthello.build/Objects-normal/armv7/ExperthelloAppDelegate.o /Users/pwansch/Documents/source/Experthello/Classes/ExperthelloAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s305095360.777818
+e305095361.052336
+r1
+xCompileC
+xbuild/Experthello.build/Release-iphoneos/Experthello.build/Objects-normal/armv7/ExperthelloAppDelegate.o
+x/Users/pwansch/Documents/source/Experthello/Classes/ExperthelloAppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@84"Compile /Users/pwansch/Documents/source/Experthello/Classes/ExperthelloAppDelegate.m305095360#305095361#0(0"0(0#0#76"/Users/pwansch/Documents/source/Experthello/Classes/ExperthelloAppDelegate.m8606561440#1962"    cd /Users/pwansch/Documents/source/Experthello    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/pwansch/Documents/source/Experthello/build/Experthello.build/Release-iphoneos/Experthello.build/Experthello-generated-files.hmap -I/Users/pwansch/Documents/source/Experthello/build/Experthello.build/Release-iphoneos/Experthello.build/Experthello-own-target-headers.hmap -I/Users/pwansch/Documents/source/Experthello/build/Experthello.build/Release-iphoneos/Experthello.build/Experthello-all-target-headers.hmap -iquote /Users/pwansch/Documents/source/Experthello/build/Experthello.build/Release-iphoneos/Experthello.build/Experthello-project-headers.hmap -F/Users/pwansch/Documents/source/Experthello/build/Release-iphoneos -I/Users/pwansch/Documents/source/Experthello/build/Release-iphoneos/include -I/Users/pwansch/Documents/source/Experthello/build/Experthello.build/Release-iphoneos/Experthello.build/DerivedSources/armv7 -I/Users/pwansch/Documents/source/Experthello/build/Experthello.build/Release-iphoneos/Experthello.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/e4/e4e5-qCPHbumRFkN5vXPyU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Experthello_Prefix-hadykxftundlencoqsnbyzeycawy/Experthello_Prefix.pch -c /Users/pwansch/Documents/source/Experthello/Classes/ExperthelloAppDelegate.m -o /Users/pwansch/Documents/source/Experthello/build/Experthello.build/Release-iphoneos/Experthello.build/Objects-normal/armv7/ExperthelloAppDelegate.o0#
+
+CCompileC build/Experthello.build/Release-iphoneos/Experthello.build/Objects-normal/armv7/InfoViewController.o /Users/pwansch/Documents/source/Experthello/Classes/InfoViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s305095361.052848
+e305095361.182368
+r1
+xCompileC
+xbuild/Experthello.build/Release-iphoneos/Experthello.build/Objects-normal/armv7/InfoViewController.o
+x/Users/pwansch/Documents/source/Experthello/Classes/InfoViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@80"Compile /Users/pwansch/Documents/source/Experthello/Classes/InfoViewController.m305095361#305095361#0(0"0(0#0#72"/Users/pwansch/Documents/source/Experthello/Classes/InfoViewController.m8611260832#1954"    cd /Users/pwansch/Documents/source/Experthello    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/pwansch/Documents/source/Experthello/build/Experthello.build/Release-iphoneos/Experthello.build/Experthello-generated-files.hmap -I/Users/pwansch/Documents/source/Experthello/build/Experthello.build/Release-iphoneos/Experthello.build/Experthello-own-target-headers.hmap -I/Users/pwansch/Documents/source/Experthello/build/Experthello.build/Release-iphoneos/Experthello.build/Experthello-all-target-headers.hmap -iquote /Users/pwansch/Documents/source/Experthello/build/Experthello.build/Release-iphoneos/Experthello.build/Experthello-project-headers.hmap -F/Users/pwansch/Documents/source/Experthello/build/Release-iphoneos -I/Users/pwansch/Documents/source/Experthello/build/Release-iphoneos/include -I/Users/pwansch/Documents/source/Experthello/build/Experthello.build/Release-iphoneos/Experthello.build/DerivedSources/armv7 -I/Users/pwansch/Documents/source/Experthello/build/Experthello.build/Release-iphoneos/Experthello.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/e4/e4e5-qCPHbumRFkN5vXPyU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Experthello_Prefix-hadykxftundlencoqsnbyzeycawy/Experthello_Prefix.pch -c /Users/pwansch/Documents/source/Experthello/Classes/InfoViewController.m -o /Users/pwansch/Documents/source/Experthello/build/Experthello.build/Release-iphoneos/Experthello.build/Objects-normal/armv7/InfoViewController.o0#
+
+CCompileC build/Experthello.build/Release-iphoneos/Experthello.build/Objects-normal/armv7/MainView.o /Users/pwansch/Documents/source/Experthello/MainView.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s305095361.054100
+e305095361.755707
+r1
+xCompileC
+xbuild/Experthello.build/Release-iphoneos/Experthello.build/Objects-normal/armv7/MainView.o
+x/Users/pwansch/Documents/source/Experthello/MainView.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@62"Compile /Users/pwansch/Documents/source/Experthello/MainView.m305095361#305095361#0(0"0(0#0#54"/Users/pwansch/Documents/source/Experthello/MainView.m8610686080#1926"    cd /Users/pwansch/Documents/source/Experthello    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/pwansch/Documents/source/Experthello/build/Experthello.build/Release-iphoneos/Experthello.build/Experthello-generated-files.hmap -I/Users/pwansch/Documents/source/Experthello/build/Experthello.build/Release-iphoneos/Experthello.build/Experthello-own-target-headers.hmap -I/Users/pwansch/Documents/source/Experthello/build/Experthello.build/Release-iphoneos/Experthello.build/Experthello-all-target-headers.hmap -iquote /Users/pwansch/Documents/source/Experthello/build/Experthello.build/Release-iphoneos/Experthello.build/Experthello-project-headers.hmap -F/Users/pwansch/Documents/source/Experthello/build/Release-iphoneos -I/Users/pwansch/Documents/source/Experthello/build/Release-iphoneos/include -I/Users/pwansch/Documents/source/Experthello/build/Experthello.build/Release-iphoneos/Experthello.build/DerivedSources/armv7 -I/Users/pwansch/Documents/source/Experthello/build/Experthello.build/Release-iphoneos/Experthello.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/e4/e4e5-qCPHbumRFkN5vXPyU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Experthello_Prefix-hadykxftundlencoqsnbyzeycawy/Experthello_Prefix.pch -c /Users/pwansch/Documents/source/Experthello/MainView.m -o /Users/pwansch/Documents/source/Experthello/build/Experthello.build/Release-iphoneos/Experthello.build/Objects-normal/armv7/MainView.o0#
+
+CCompileC build/Experthello.build/Release-iphoneos/Experthello.build/Objects-normal/armv7/MainViewController.o /Users/pwansch/Documents/source/Experthello/Classes/MainViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s305095360.789527
+e305095361.052719
+r1
+xCompileC
+xbuild/Experthello.build/Release-iphoneos/Experthello.build/Objects-normal/armv7/MainViewController.o
+x/Users/pwansch/Documents/source/Experthello/Classes/MainViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@80"Compile /Users/pwansch/Documents/source/Experthello/Classes/MainViewController.m305095360#305095361#0(0"0(0#0#72"/Users/pwansch/Documents/source/Experthello/Classes/MainViewController.m8610685280#1954"    cd /Users/pwansch/Documents/source/Experthello    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/pwansch/Documents/source/Experthello/build/Experthello.build/Release-iphoneos/Experthello.build/Experthello-generated-files.hmap -I/Users/pwansch/Documents/source/Experthello/build/Experthello.build/Release-iphoneos/Experthello.build/Experthello-own-target-headers.hmap -I/Users/pwansch/Documents/source/Experthello/build/Experthello.build/Release-iphoneos/Experthello.build/Experthello-all-target-headers.hmap -iquote /Users/pwansch/Documents/source/Experthello/build/Experthello.build/Release-iphoneos/Experthello.build/Experthello-project-headers.hmap -F/Users/pwansch/Documents/source/Experthello/build/Release-iphoneos -I/Users/pwansch/Documents/source/Experthello/build/Release-iphoneos/include -I/Users/pwansch/Documents/source/Experthello/build/Experthello.build/Release-iphoneos/Experthello.build/DerivedSources/armv7 -I/Users/pwansch/Documents/source/Experthello/build/Experthello.build/Release-iphoneos/Experthello.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/e4/e4e5-qCPHbumRFkN5vXPyU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Experthello_Prefix-hadykxftundlencoqsnbyzeycawy/Experthello_Prefix.pch -c /Users/pwansch/Documents/source/Experthello/Classes/MainViewController.m -o /Users/pwansch/Documents/source/Experthello/build/Experthello.build/Release-iphoneos/Experthello.build/Objects-normal/armv7/MainViewController.o0#
+
+CCompileC build/Experthello.build/Release-iphoneos/Experthello.build/Objects-normal/armv7/ThreadInfo.o /Users/pwansch/Documents/source/Experthello/ThreadInfo.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s305095361.370833
+e305095361.453395
+r1
+xCompileC
+xbuild/Experthello.build/Release-iphoneos/Experthello.build/Objects-normal/armv7/ThreadInfo.o
+x/Users/pwansch/Documents/source/Experthello/ThreadInfo.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@64"Compile /Users/pwansch/Documents/source/Experthello/ThreadInfo.m305095361#305095361#0(0"0(0#0#56"/Users/pwansch/Documents/source/Experthello/ThreadInfo.m8610496384#1930"    cd /Users/pwansch/Documents/source/Experthello    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/pwansch/Documents/source/Experthello/build/Experthello.build/Release-iphoneos/Experthello.build/Experthello-generated-files.hmap -I/Users/pwansch/Documents/source/Experthello/build/Experthello.build/Release-iphoneos/Experthello.build/Experthello-own-target-headers.hmap -I/Users/pwansch/Documents/source/Experthello/build/Experthello.build/Release-iphoneos/Experthello.build/Experthello-all-target-headers.hmap -iquote /Users/pwansch/Documents/source/Experthello/build/Experthello.build/Release-iphoneos/Experthello.build/Experthello-project-headers.hmap -F/Users/pwansch/Documents/source/Experthello/build/Release-iphoneos -I/Users/pwansch/Documents/source/Experthello/build/Release-iphoneos/include -I/Users/pwansch/Documents/source/Experthello/build/Experthello.build/Release-iphoneos/Experthello.build/DerivedSources/armv7 -I/Users/pwansch/Documents/source/Experthello/build/Experthello.build/Release-iphoneos/Experthello.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/e4/e4e5-qCPHbumRFkN5vXPyU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Experthello_Prefix-hadykxftundlencoqsnbyzeycawy/Experthello_Prefix.pch -c /Users/pwansch/Documents/source/Experthello/ThreadInfo.m -o /Users/pwansch/Documents/source/Experthello/build/Experthello.build/Release-iphoneos/Experthello.build/Objects-normal/armv7/ThreadInfo.o0#
+
+CCompileC build/Experthello.build/Release-iphoneos/Experthello.build/Objects-normal/armv7/main.o /Users/pwansch/Documents/source/Experthello/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s305095360.711423
+e305095360.777679
+r1
+xCompileC
+xbuild/Experthello.build/Release-iphoneos/Experthello.build/Objects-normal/armv7/main.o
+x/Users/pwansch/Documents/source/Experthello/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@58"Compile /Users/pwansch/Documents/source/Experthello/main.m305095360#305095360#0(0"0(0#0#50"/Users/pwansch/Documents/source/Experthello/main.m8607362816#1918"    cd /Users/pwansch/Documents/source/Experthello    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/pwansch/Documents/source/Experthello/build/Experthello.build/Release-iphoneos/Experthello.build/Experthello-generated-files.hmap -I/Users/pwansch/Documents/source/Experthello/build/Experthello.build/Release-iphoneos/Experthello.build/Experthello-own-target-headers.hmap -I/Users/pwansch/Documents/source/Experthello/build/Experthello.build/Release-iphoneos/Experthello.build/Experthello-all-target-headers.hmap -iquote /Users/pwansch/Documents/source/Experthello/build/Experthello.build/Release-iphoneos/Experthello.build/Experthello-project-headers.hmap -F/Users/pwansch/Documents/source/Experthello/build/Release-iphoneos -I/Users/pwansch/Documents/source/Experthello/build/Release-iphoneos/include -I/Users/pwansch/Documents/source/Experthello/build/Experthello.build/Release-iphoneos/Experthello.build/DerivedSources/armv7 -I/Users/pwansch/Documents/source/Experthello/build/Experthello.build/Release-iphoneos/Experthello.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/e4/e4e5-qCPHbumRFkN5vXPyU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Experthello_Prefix-hadykxftundlencoqsnbyzeycawy/Experthello_Prefix.pch -c /Users/pwansch/Documents/source/Experthello/main.m -o /Users/pwansch/Documents/source/Experthello/build/Experthello.build/Release-iphoneos/Experthello.build/Objects-normal/armv7/main.o0#
+
+CCompileXIB /Users/pwansch/Documents/source/Experthello/InfoView.xib
+s305095359.470308
+e305095359.970256
+r1
+xCompileXIB
+x/Users/pwansch/Documents/source/Experthello/InfoView.xib
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+lSLF07#2@23"CompileXIB InfoView.xib305095359#305095359#0(1512"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)Couldn't open shared capabilities memory GSCapabilities (No such file or directory)Couldn't open shared capabilities memory GSCapabilities (No such file or directory)Couldn't open shared capabilities memory GSCapabilities (No such file or directory)Couldn't open shared capabilities memory GSCapabilities (No such file or directory)Couldn't open shared capabilities memory GSCapabilities (No such file or directory)Couldn't open shared capabilities memory GSCapabilities (No such file or directory)Couldn't open shared capabilities memory GSCapabilities (No such file or directory)Couldn't open shared capabilities memory GSCapabilities (No such file or directory)Couldn't open shared capabilities memory GSCapabilities (No such file or directory)Couldn't open shared capabilities memory GSCapabilities (No such file or directory)Couldn't open shared capabilities memory GSCapabilities (No such file or directory)Couldn't open shared capabilities memory GSCapabilities (No such file or directory)Couldn't open shared capabilities memory GSCapabilities (No such file or directory)Couldn't open shared capabilities memory GSCapabilities (No such file or directory)Couldn't open shared capabilities memory GSCapabilities (No such file or directory)Couldn't open shared capabilities memory GSCapabilities (No such file or directory)Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#56"/Users/pwansch/Documents/source/Experthello/InfoView.xib8603347168#559"    cd /Users/pwansch/Documents/source/Experthello    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/pwansch/Documents/source/Experthello/build/Release-iphoneos/Experthello.app/InfoView.nib /Users/pwansch/Documents/source/Experthello/InfoView.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk0#
+
+CCompileXIB /Users/pwansch/Documents/source/Experthello/MainView.xib
+s305095359.471126
+e305095359.918860
+r1
+xCompileXIB
+x/Users/pwansch/Documents/source/Experthello/MainView.xib
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+lSLF07#2@23"CompileXIB MainView.xib305095359#305095359#0(84"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#56"/Users/pwansch/Documents/source/Experthello/MainView.xib8602121600#559"    cd /Users/pwansch/Documents/source/Experthello    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/pwansch/Documents/source/Experthello/build/Release-iphoneos/Experthello.app/MainView.nib /Users/pwansch/Documents/source/Experthello/MainView.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk0#
+
+CCompileXIB /Users/pwansch/Documents/source/Experthello/MainWindow.xib
+s305095359.471779
+e305095359.876269
+r1
+xCompileXIB
+x/Users/pwansch/Documents/source/Experthello/MainWindow.xib
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+lSLF07#2@25"CompileXIB MainWindow.xib305095359#305095359#0(84"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#58"/Users/pwansch/Documents/source/Experthello/MainWindow.xib8599835936#563"    cd /Users/pwansch/Documents/source/Experthello    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/pwansch/Documents/source/Experthello/build/Release-iphoneos/Experthello.app/MainWindow.nib /Users/pwansch/Documents/source/Experthello/MainWindow.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk0#
+
+CCopyPNGFile /Users/pwansch/Documents/source/Experthello/build/Release-iphoneos/Experthello.app/experthello.png experthello.png
+s305095359.487885
+e305095359.527932
+r1
+xCopyPNGFile
+x/Users/pwansch/Documents/source/Experthello/build/Release-iphoneos/Experthello.app/experthello.png
+xexperthello.png
+lSLF07#2@82"CopyPNGFile build/Release-iphoneos/Experthello.app/experthello.png experthello.png305095359#305095359#0(0"0(0#0#59"/Users/pwansch/Documents/source/Experthello/experthello.png8609502336#591"    cd /Users/pwansch/Documents/source/Experthello    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/pwansch/Documents/source/Experthello/experthello.png /Users/pwansch/Documents/source/Experthello/build/Release-iphoneos/Experthello.app/experthello.png0#
+
+CCpResource build/Release-iphoneos/Experthello.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist
+s305095359.464892
+e305095359.470231
+r1
+xCpResource
+xbuild/Release-iphoneos/Experthello.app/ResourceRules.plist
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist
+lSLF07#2@94"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist305095359#305095359#0(0"0(0#0#89"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist3471769895168208384#517"    cd /Users/pwansch/Documents/source/Experthello    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist /Users/pwansch/Documents/source/Experthello/build/Release-iphoneos/Experthello.app0#
+
+CCpResource build/Release-iphoneos/Experthello.app/draw.wav draw.wav
+s305095359.479328
+e305095359.503104
+r1
+xCpResource
+xbuild/Release-iphoneos/Experthello.app/draw.wav
+xdraw.wav
+lSLF07#2@13"Copy draw.wav305095359#305095359#0(0"0(0#0#52"/Users/pwansch/Documents/source/Experthello/draw.wav8612567360#480"    cd /Users/pwansch/Documents/source/Experthello    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/pwansch/Documents/source/Experthello/draw.wav /Users/pwansch/Documents/source/Experthello/build/Release-iphoneos/Experthello.app0#
+
+CCpResource build/Release-iphoneos/Experthello.app/hint.wav hint.wav
+s305095359.485916
+e305095359.503781
+r1
+xCpResource
+xbuild/Release-iphoneos/Experthello.app/hint.wav
+xhint.wav
+lSLF07#2@13"Copy hint.wav305095359#305095359#0(0"0(0#0#52"/Users/pwansch/Documents/source/Experthello/hint.wav8610429408#480"    cd /Users/pwansch/Documents/source/Experthello    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/pwansch/Documents/source/Experthello/hint.wav /Users/pwansch/Documents/source/Experthello/build/Release-iphoneos/Experthello.app0#
+
+CCpResource build/Release-iphoneos/Experthello.app/illegal.wav illegal.wav
+s305095359.473079
+e305095359.493400
+r1
+xCpResource
+xbuild/Release-iphoneos/Experthello.app/illegal.wav
+xillegal.wav
+lSLF07#2@16"Copy illegal.wav305095359#305095359#0(0"0(0#0#55"/Users/pwansch/Documents/source/Experthello/illegal.wav8595885888#483"    cd /Users/pwansch/Documents/source/Experthello    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/pwansch/Documents/source/Experthello/illegal.wav /Users/pwansch/Documents/source/Experthello/build/Release-iphoneos/Experthello.app0#
+
+CCpResource build/Release-iphoneos/Experthello.app/lost.wav lost.wav
+s305095359.480144
+e305095359.489987
+r1
+xCpResource
+xbuild/Release-iphoneos/Experthello.app/lost.wav
+xlost.wav
+lSLF07#2@13"Copy lost.wav305095359#305095359#0(0"0(0#0#52"/Users/pwansch/Documents/source/Experthello/lost.wav8606242144#480"    cd /Users/pwansch/Documents/source/Experthello    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/pwansch/Documents/source/Experthello/lost.wav /Users/pwansch/Documents/source/Experthello/build/Release-iphoneos/Experthello.app0#
+
+CCpResource build/Release-iphoneos/Experthello.app/new.wav new.wav
+s305095359.483449
+e305095359.498188
+r1
+xCpResource
+xbuild/Release-iphoneos/Experthello.app/new.wav
+xnew.wav
+lSLF07#2@12"Copy new.wav305095359#305095359#0(0"0(0#0#51"/Users/pwansch/Documents/source/Experthello/new.wav8611157792#479"    cd /Users/pwansch/Documents/source/Experthello    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/pwansch/Documents/source/Experthello/new.wav /Users/pwansch/Documents/source/Experthello/build/Release-iphoneos/Experthello.app0#
+
+CCpResource build/Release-iphoneos/Experthello.app/pass.wav pass.wav
+s305095359.472426
+e305095359.485663
+r1
+xCpResource
+xbuild/Release-iphoneos/Experthello.app/pass.wav
+xpass.wav
+lSLF07#2@13"Copy pass.wav305095359#305095359#0(0"0(0#0#52"/Users/pwansch/Documents/source/Experthello/pass.wav8596313792#480"    cd /Users/pwansch/Documents/source/Experthello    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/pwansch/Documents/source/Experthello/pass.wav /Users/pwansch/Documents/source/Experthello/build/Release-iphoneos/Experthello.app0#
+
+CCpResource build/Release-iphoneos/Experthello.app/place.wav place.wav
+s305095359.473688
+e305095359.485821
+r1
+xCpResource
+xbuild/Release-iphoneos/Experthello.app/place.wav
+xplace.wav
+lSLF07#2@14"Copy place.wav305095359#305095359#0(0"0(0#0#53"/Users/pwansch/Documents/source/Experthello/place.wav8590378400#481"    cd /Users/pwansch/Documents/source/Experthello    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/pwansch/Documents/source/Experthello/place.wav /Users/pwansch/Documents/source/Experthello/build/Release-iphoneos/Experthello.app0#
+
+CCpResource build/Release-iphoneos/Experthello.app/won.wav won.wav
+s305095359.481527
+e305095359.500682
+r1
+xCpResource
+xbuild/Release-iphoneos/Experthello.app/won.wav
+xwon.wav
+lSLF07#2@12"Copy won.wav305095359#305095359#0(0"0(0#0#51"/Users/pwansch/Documents/source/Experthello/won.wav8612780288#479"    cd /Users/pwansch/Documents/source/Experthello    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/pwansch/Documents/source/Experthello/won.wav /Users/pwansch/Documents/source/Experthello/build/Release-iphoneos/Experthello.app0#
+
+CCreateUniversalBinary /Users/pwansch/Documents/source/Experthello/build/Release-iphoneos/Experthello.app/Experthello normal "armv6 armv7"
+s305095361.919077
+e305095361.921605
+r1
+xCreateUniversalBinary
+x/Users/pwansch/Documents/source/Experthello/build/Release-iphoneos/Experthello.app/Experthello
+xnormal
+xarmv6 armv7
+lSLF07#2@93"CreateUniversalBinary build/Release-iphoneos/Experthello.app/Experthello normal "armv6 armv7"305095361#305095361#0(0"0(0#0#55"/Users/pwansch/Documents/source/Experthello/armv6 armv78611100096#576"    cd /Users/pwansch/Documents/source/Experthello    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/lipo -create /Users/pwansch/Documents/source/Experthello/build/Experthello.build/Release-iphoneos/Experthello.build/Objects-normal/armv6/Experthello /Users/pwansch/Documents/source/Experthello/build/Experthello.build/Release-iphoneos/Experthello.build/Objects-normal/armv7/Experthello -output /Users/pwansch/Documents/source/Experthello/build/Release-iphoneos/Experthello.app/Experthello0#
+
+CGenerateDSYMFile /Users/pwansch/Documents/source/Experthello/build/Release-iphoneos/Experthello.app.dSYM /Users/pwansch/Documents/source/Experthello/build/Release-iphoneos/Experthello.app/Experthello
+s305095361.921669
+e305095361.952302
+r1
+xGenerateDSYMFile
+x/Users/pwansch/Documents/source/Experthello/build/Release-iphoneos/Experthello.app.dSYM
+x/Users/pwansch/Documents/source/Experthello/build/Release-iphoneos/Experthello.app/Experthello
+lSLF07#2@111"GenerateDSYMFile build/Release-iphoneos/Experthello.app.dSYM build/Release-iphoneos/Experthello.app/Experthello305095361#305095361#0(0"0(0#0#94"/Users/pwansch/Documents/source/Experthello/build/Release-iphoneos/Experthello.app/Experthello8609517152#393"    cd /Users/pwansch/Documents/source/Experthello    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/pwansch/Documents/source/Experthello/build/Release-iphoneos/Experthello.app/Experthello -o /Users/pwansch/Documents/source/Experthello/build/Release-iphoneos/Experthello.app.dSYM0#
+
+CLd /Users/pwansch/Documents/source/Experthello/build/Experthello.build/Release-iphoneos/Experthello.build/Objects-normal/armv6/Experthello normal armv6
+s305095361.548316
+e305095361.579074
+r1
+xLd
+x/Users/pwansch/Documents/source/Experthello/build/Experthello.build/Release-iphoneos/Experthello.build/Objects-normal/armv6/Experthello
+xnormal
+xarmv6
+lSLF07#2@140"Link /Users/pwansch/Documents/source/Experthello/build/Experthello.build/Release-iphoneos/Experthello.build/Objects-normal/armv6/Experthello305095361#305095361#0(0"0(0#0#0"8612769376#940"    cd /Users/pwansch/Documents/source/Experthello    setenv IPHONEOS_DEPLOYMENT_TARGET 4.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -L/Users/pwansch/Documents/source/Experthello/build/Release-iphoneos -F/Users/pwansch/Documents/source/Experthello/build/Release-iphoneos -filelist /Users/pwansch/Documents/source/Experthello/build/Experthello.build/Release-iphoneos/Experthello.build/Objects-normal/armv6/Experthello.LinkFileList -dead_strip -miphoneos-version-min=4.0 -framework Foundation -framework UIKit -framework CoreGraphics -framework AudioToolbox -o /Users/pwansch/Documents/source/Experthello/build/Experthello.build/Release-iphoneos/Experthello.build/Objects-normal/armv6/Experthello0#
+
+CLd /Users/pwansch/Documents/source/Experthello/build/Experthello.build/Release-iphoneos/Experthello.build/Objects-normal/armv7/Experthello normal armv7
+s305095361.894787
+e305095361.918976
+r1
+xLd
+x/Users/pwansch/Documents/source/Experthello/build/Experthello.build/Release-iphoneos/Experthello.build/Objects-normal/armv7/Experthello
+xnormal
+xarmv7
+lSLF07#2@140"Link /Users/pwansch/Documents/source/Experthello/build/Experthello.build/Release-iphoneos/Experthello.build/Objects-normal/armv7/Experthello305095361#305095361#0(0"0(0#0#0"8612704128#940"    cd /Users/pwansch/Documents/source/Experthello    setenv IPHONEOS_DEPLOYMENT_TARGET 4.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -L/Users/pwansch/Documents/source/Experthello/build/Release-iphoneos -F/Users/pwansch/Documents/source/Experthello/build/Release-iphoneos -filelist /Users/pwansch/Documents/source/Experthello/build/Experthello.build/Release-iphoneos/Experthello.build/Objects-normal/armv7/Experthello.LinkFileList -dead_strip -miphoneos-version-min=4.0 -framework Foundation -framework UIKit -framework CoreGraphics -framework AudioToolbox -o /Users/pwansch/Documents/source/Experthello/build/Experthello.build/Release-iphoneos/Experthello.build/Objects-normal/armv7/Experthello0#
+
+CProcessInfoPlistFile /Users/pwansch/Documents/source/Experthello/build/Release-iphoneos/Experthello.app/Info.plist Experthello-Info.plist
+s305095359.465931
+e305095359.469621
+r1
+xProcessInfoPlistFile
+x/Users/pwansch/Documents/source/Experthello/build/Release-iphoneos/Experthello.app/Info.plist
+xExperthello-Info.plist
+lSLF07#2@30"Process Experthello-Info.plist305095359#305095359#0(0"0(0#0#66"/Users/pwansch/Documents/source/Experthello/Experthello-Info.plist8605542080#604"    cd /Users/pwansch/Documents/source/Experthello    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Experthello-Info.plist -genpkginfo /Users/pwansch/Documents/source/Experthello/build/Release-iphoneos/Experthello.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/pwansch/Documents/source/Experthello/build/Release-iphoneos/Experthello.app/ResourceRules.plist -o /Users/pwansch/Documents/source/Experthello/build/Release-iphoneos/Experthello.app/Info.plist0#
+
+CProcessPCH /var/folders/e4/e4e5-qCPHbumRFkN5vXPyU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Experthello_Prefix-fdolyhlzfasfgfexfpgyeanbqgyo/Experthello_Prefix.pch.gch Experthello_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+s305095359.970618
+e305095360.480336
+r1
+xProcessPCH
+x/var/folders/e4/e4e5-qCPHbumRFkN5vXPyU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Experthello_Prefix-fdolyhlzfasfgfexfpgyeanbqgyo/Experthello_Prefix.pch.gch
+xExperthello_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@33"Precompile Experthello_Prefix.pch305095359#305095360#0(0"0(0#0#66"/Users/pwansch/Documents/source/Experthello/Experthello_Prefix.pch8606932864#1805"    cd /Users/pwansch/Documents/source/Experthello    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/pwansch/Documents/source/Experthello/build/Experthello.build/Release-iphoneos/Experthello.build/Experthello-generated-files.hmap -I/Users/pwansch/Documents/source/Experthello/build/Experthello.build/Release-iphoneos/Experthello.build/Experthello-own-target-headers.hmap -I/Users/pwansch/Documents/source/Experthello/build/Experthello.build/Release-iphoneos/Experthello.build/Experthello-all-target-headers.hmap -iquote /Users/pwansch/Documents/source/Experthello/build/Experthello.build/Release-iphoneos/Experthello.build/Experthello-project-headers.hmap -F/Users/pwansch/Documents/source/Experthello/build/Release-iphoneos -I/Users/pwansch/Documents/source/Experthello/build/Release-iphoneos/include -I/Users/pwansch/Documents/source/Experthello/build/Experthello.build/Release-iphoneos/Experthello.build/DerivedSources/armv6 -I/Users/pwansch/Documents/source/Experthello/build/Experthello.build/Release-iphoneos/Experthello.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -c /Users/pwansch/Documents/source/Experthello/Experthello_Prefix.pch -o /var/folders/e4/e4e5-qCPHbumRFkN5vXPyU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Experthello_Prefix-fdolyhlzfasfgfexfpgyeanbqgyo/Experthello_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/e4/e4e5-qCPHbumRFkN5vXPyU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Experthello_Prefix-hadykxftundlencoqsnbyzeycawy/Experthello_Prefix.pch.gch Experthello_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+s305095359.971439
+e305095360.512028
+r1
+xProcessPCH
+x/var/folders/e4/e4e5-qCPHbumRFkN5vXPyU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Experthello_Prefix-hadykxftundlencoqsnbyzeycawy/Experthello_Prefix.pch.gch
+xExperthello_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@33"Precompile Experthello_Prefix.pch305095359#305095360#0(0"0(0#0#66"/Users/pwansch/Documents/source/Experthello/Experthello_Prefix.pch8606542912#1805"    cd /Users/pwansch/Documents/source/Experthello    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/pwansch/Documents/source/Experthello/build/Experthello.build/Release-iphoneos/Experthello.build/Experthello-generated-files.hmap -I/Users/pwansch/Documents/source/Experthello/build/Experthello.build/Release-iphoneos/Experthello.build/Experthello-own-target-headers.hmap -I/Users/pwansch/Documents/source/Experthello/build/Experthello.build/Release-iphoneos/Experthello.build/Experthello-all-target-headers.hmap -iquote /Users/pwansch/Documents/source/Experthello/build/Experthello.build/Release-iphoneos/Experthello.build/Experthello-project-headers.hmap -F/Users/pwansch/Documents/source/Experthello/build/Release-iphoneos -I/Users/pwansch/Documents/source/Experthello/build/Release-iphoneos/include -I/Users/pwansch/Documents/source/Experthello/build/Experthello.build/Release-iphoneos/Experthello.build/DerivedSources/armv7 -I/Users/pwansch/Documents/source/Experthello/build/Experthello.build/Release-iphoneos/Experthello.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -c /Users/pwansch/Documents/source/Experthello/Experthello_Prefix.pch -o /var/folders/e4/e4e5-qCPHbumRFkN5vXPyU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Experthello_Prefix-hadykxftundlencoqsnbyzeycawy/Experthello_Prefix.pch.gch0#
+
+CProcessProductPackaging "/Users/pwansch/Library/MobileDevice/Provisioning Profiles/0FEE0C8F-D76D-4EC9-A548-F945F311F8A1.mobileprovision" /Users/pwansch/Documents/source/Experthello/build/Release-iphoneos/Experthello.app/embedded.mobileprovision
+s305093983.788745
+e305093983.789846
+r1
+xProcessProductPackaging
+x/Users/pwansch/Library/MobileDevice/Provisioning Profiles/0FEE0C8F-D76D-4EC9-A548-F945F311F8A1.mobileprovision
+x/Users/pwansch/Documents/source/Experthello/build/Release-iphoneos/Experthello.app/embedded.mobileprovision
+lSLF07#2@200"ProcessProductPackaging "/Users/pwansch/Library/MobileDevice/Provisioning Profiles/0FEE0C8F-D76D-4EC9-A548-F945F311F8A1.mobileprovision" build/Release-iphoneos/Experthello.app/embedded.mobileprovision305093983#305093983#0(0"0(0#0#107"/Users/pwansch/Documents/source/Experthello/build/Release-iphoneos/Experthello.app/embedded.mobileprovision8606996640#441"    cd /Users/pwansch/Documents/source/Experthello    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/pwansch/Library/MobileDevice/Provisioning Profiles/0FEE0C8F-D76D-4EC9-A548-F945F311F8A1.mobileprovision" -o /Users/pwansch/Documents/source/Experthello/build/Release-iphoneos/Experthello.app/embedded.mobileprovision0#
+
+CProcessProductPackaging "/Users/pwansch/Library/MobileDevice/Provisioning Profiles/6F46B7ED-4816-4961-80E1-57FF44FED273.mobileprovision" /Users/pwansch/Documents/source/Experthello/build/Release-iphoneos/Experthello.app/embedded.mobileprovision
+s305095361.952401
+e305095361.953381
+r1
+xProcessProductPackaging
+x/Users/pwansch/Library/MobileDevice/Provisioning Profiles/6F46B7ED-4816-4961-80E1-57FF44FED273.mobileprovision
+x/Users/pwansch/Documents/source/Experthello/build/Release-iphoneos/Experthello.app/embedded.mobileprovision
+lSLF07#2@200"ProcessProductPackaging "/Users/pwansch/Library/MobileDevice/Provisioning Profiles/6F46B7ED-4816-4961-80E1-57FF44FED273.mobileprovision" build/Release-iphoneos/Experthello.app/embedded.mobileprovision305095361#305095361#0(0"0(0#0#107"/Users/pwansch/Documents/source/Experthello/build/Release-iphoneos/Experthello.app/embedded.mobileprovision8595672096#441"    cd /Users/pwansch/Documents/source/Experthello    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/pwansch/Library/MobileDevice/Provisioning Profiles/6F46B7ED-4816-4961-80E1-57FF44FED273.mobileprovision" -o /Users/pwansch/Documents/source/Experthello/build/Release-iphoneos/Experthello.app/embedded.mobileprovision0#
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist /Users/pwansch/Documents/source/Experthello/build/Experthello.build/Release-iphoneos/Experthello.build/Experthello.xcent
+s305095361.955968
+e305095361.957618
+r1
+xProcessProductPackaging
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist
+x/Users/pwansch/Documents/source/Experthello/build/Experthello.build/Release-iphoneos/Experthello.build/Experthello.xcent
+lSLF07#2@189"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist build/Experthello.build/Release-iphoneos/Experthello.build/Experthello.xcent305095361#305095361#0(0"0(0#0#120"/Users/pwansch/Documents/source/Experthello/build/Experthello.build/Release-iphoneos/Experthello.build/Experthello.xcent8607179072#456"    cd /Users/pwansch/Documents/source/Experthello    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist -entitlements -format xml -o /Users/pwansch/Documents/source/Experthello/build/Experthello.build/Release-iphoneos/Experthello.build/Experthello.xcent0#
+
+CTouch /Users/pwansch/Documents/source/Experthello/build/Release-iphoneos/Experthello.app
+s305095361.953429
+e305095361.955898
+r1
+xTouch
+x/Users/pwansch/Documents/source/Experthello/build/Release-iphoneos/Experthello.app
+lSLF07#2@88"Touch /Users/pwansch/Documents/source/Experthello/build/Release-iphoneos/Experthello.app305095361#305095361#0(0"0(0#0#0"8610500608#280"    cd /Users/pwansch/Documents/source/Experthello    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/pwansch/Documents/source/Experthello/build/Release-iphoneos/Experthello.app0#
+
+CValidate /Users/pwansch/Documents/source/Experthello/build/Release-iphoneos/Experthello.app
+s305095365.409250
+e305095365.521641
+r1
+xValidate
+x/Users/pwansch/Documents/source/Experthello/build/Release-iphoneos/Experthello.app
+lSLF07#2@47"Validate build/Release-iphoneos/Experthello.app305095365#305095365#0(0"0(0#0#82"/Users/pwansch/Documents/source/Experthello/build/Release-iphoneos/Experthello.app8605939264#389"    cd /Users/pwansch/Documents/source/Experthello    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv PRODUCT_TYPE com.apple.product-type.application    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/Validation /Users/pwansch/Documents/source/Experthello/build/Release-iphoneos/Experthello.app0#
+
