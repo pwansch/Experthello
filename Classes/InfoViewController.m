@@ -16,12 +16,13 @@
 @implementation InfoViewController
 
 - (void)viewDidLoad {
+	[super viewDidLoad];
+
 	// Load settings
 	NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults]; 
 	self.playerStartsSwitch.on = [defaults boolForKey:kPlayerStartsKey];
 	self.soundSwitch.on = [defaults boolForKey:kSoundKey];
 	self.levelControl.selectedSegmentIndex = [defaults integerForKey:kLevelKey];
-	[super viewDidLoad];
 }
 
 - (IBAction)done:(id)sender {
