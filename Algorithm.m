@@ -1577,7 +1577,7 @@ short sOthello(BOARD Board, short sX, short sY, short sCurrentLevel, short sMaxL
 			}
 		if(fGotAMove)
 		{ 
-			sBew = abs(rand() % (sMaxIndizesInd + 1));
+			sBew = abs(random() % (sMaxIndizesInd + 1));
 			*psX = sMaxIndizes[sBew][0];
 			*psY = sMaxIndizes[sBew][1];
 			*pfValid = YES;

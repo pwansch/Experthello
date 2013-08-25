@@ -80,39 +80,31 @@
 	self.m_fPlayerStarts = [defaults boolForKey:kPlayerStartsKey];
 	self.m_sound = [defaults boolForKey:kSoundKey];
 	
-    if(UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad) {
-        // Dismiss popover if it is displayed
-        if (self.infoViewPopoverController != nil) {
-            [infoViewPopoverController dismissPopoverAnimated:YES];
-            self.infoViewPopoverController = nil;
-        }
-    } else {
-        // Dismiss the modal dialog
+    if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone) {
         [self dismissViewControllerAnimated:YES completion:nil];
+    } else {
+        [self.infoViewPopoverController dismissPopoverAnimated:YES];
     }
 }
 
 - (IBAction)showInfo:(id)sender {
-    // Check if we run on the iPad
-    if(UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad) {
-        if (self.infoViewPopoverController == nil) {
-            // Show the settings popover
-            InfoViewController_iPad *controller = [[InfoViewController_iPad alloc] initWithNibName:@"InfoView" bundle:nil];
-            controller.delegate = self;
-            UIPopoverController *poc = [[UIPopoverController alloc] initWithContentViewController:controller];
-            poc.delegate = self;
-            [poc presentPopoverFromRect:[sender bounds] inView:sender permittedArrowDirections:UIPopoverArrowDirectionAny animated:YES];
-            self.infoViewPopoverController = poc;
-        } else {
-            [infoViewPopoverController dismissPopoverAnimated:YES];
-            self.infoViewPopoverController = nil;
-        }
-    } else {
-        // Show the settings dialog
+    if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone) {
         InfoViewController *controller = [[InfoViewController alloc] initWithNibName:@"InfoView" bundle:nil];
         controller.delegate = self;
         controller.modalTransitionStyle = UIModalTransitionStyleFlipHorizontal;
         [self presentViewController:controller animated:YES completion:nil];
+    } else {
+        if (!self.infoViewPopoverController) {
+            InfoViewController *controller = [[InfoViewController alloc] initWithNibName:@"InfoView" bundle:nil];
+            controller.delegate = self;
+            
+            self.infoViewPopoverController = [[UIPopoverController alloc] initWithContentViewController:controller];
+        }
+        if ([self.infoViewPopoverController isPopoverVisible]) {
+            [self.infoViewPopoverController dismissPopoverAnimated:YES];
+        } else {
+            [self.infoViewPopoverController presentPopoverFromRect:[sender bounds] inView:sender permittedArrowDirections:UIPopoverArrowDirectionAny animated:YES];
+        }
     }
 }
 
@@ -492,8 +484,7 @@
 - (void)willAnimateRotationToInterfaceOrientation:(UIInterfaceOrientation)toInterfaceOrientation duration:(NSTimeInterval)duration {
     // Dismiss popover if it is displayed
     if (self.infoViewPopoverController != nil) {
-        [infoViewPopoverController dismissPopoverAnimated:YES];
-        self.infoViewPopoverController = nil;
+        [self.infoViewPopoverController dismissPopoverAnimated:YES];
     }
     
     // Change the location of the buttons
@@ -503,12 +494,6 @@
     } else {
         gameButton.frame = CGRectMake(20, self.view.bounds.size.height - 47, 90, 30);
         hintButton.frame = CGRectMake(118, self.view.bounds.size.height - 47, 60, 30);
-    }
-}
-
-- (void)popoverControllerDidDismissPopover:(UIPopoverController *)popoverController {
-    if (self.infoViewPopoverController != nil) {
-        self.infoViewPopoverController = nil;
     }
 }
 

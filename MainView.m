@@ -8,7 +8,6 @@
 
 #import "MainView.h"
 #import "Algorithm.h"
-#import "MainViewController.h"
 
 // Prototype from Algorithm.m
 short MakeMove(PBOARD pBoard, short sX, short sY, short sWho, BOOL fSimple, BOOL fInvalidate, MainView *mainView);

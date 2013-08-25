@@ -17,7 +17,7 @@
 #define kPlayerStartsKey	@"playerStarts"
 #define kSoundKey			@"sound"
 
-@interface MainViewController : UIViewController <InfoViewControllerDelegate, UIPopoverControllerDelegate>
+@interface MainViewController : UIViewController <InfoViewControllerDelegate>
 
 @property (strong, nonatomic) IBOutlet UIButton *gameButton;
 @property (strong, nonatomic) IBOutlet UIButton *hintButton;
