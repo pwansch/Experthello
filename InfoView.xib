@@ -129,7 +129,7 @@
 					</object>
 					<object class="IBUISegmentedControl" id="912947597">
 						<reference key="NSNextResponder" ref="249263867"/>
-						<int key="NSvFlags">292</int>
+						<int key="NSvFlags">293</int>
 						<string key="NSFrame">{{20, 140}, {280, 44}}</string>
 						<reference key="NSSuperview" ref="249263867"/>
 						<reference key="NSWindow"/>
@@ -171,7 +171,7 @@
 					</object>
 					<object class="IBUISwitch" id="95468707">
 						<reference key="NSNextResponder" ref="249263867"/>
-						<int key="NSvFlags">292</int>
+						<int key="NSvFlags">289</int>
 						<string key="NSFrame">{{206, 97}, {94, 27}}</string>
 						<reference key="NSSuperview" ref="249263867"/>
 						<reference key="NSWindow"/>
@@ -184,7 +184,7 @@
 					</object>
 					<object class="IBUISwitch" id="1009722088">
 						<reference key="NSNextResponder" ref="249263867"/>
-						<int key="NSvFlags">292</int>
+						<int key="NSvFlags">289</int>
 						<string key="NSFrame">{{206, 57}, {94, 27}}</string>
 						<reference key="NSSuperview" ref="249263867"/>
 						<reference key="NSWindow"/>
@@ -197,7 +197,7 @@
 					</object>
 					<object class="IBUITextView" id="1024131532">
 						<reference key="NSNextResponder" ref="249263867"/>
-						<int key="NSvFlags">276</int>
+						<int key="NSvFlags">279</int>
 						<string key="NSFrame">{{20, 200}, {280, 240}}</string>
 						<reference key="NSSuperview" ref="249263867"/>
 						<reference key="NSWindow"/>

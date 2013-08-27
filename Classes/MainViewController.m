@@ -108,8 +108,19 @@
     }
 }
 
-- (IBAction)newGame:(id)sender {  
-	[self initializeGame];
+- (IBAction)newGame:(id)sender {
+    if(!self.gameover) {
+        UIActionSheet *actionSheet = [[UIActionSheet alloc] initWithTitle:@"Do you want to start a new game?" delegate:self cancelButtonTitle:@"No" destructiveButtonTitle:@"Yes" otherButtonTitles:nil];
+        [actionSheet showInView:self.view];
+    } else {
+        [self initializeGame];
+    }
+}
+
+- (void)actionSheet:(UIActionSheet *)actionSheet didDismissWithButtonIndex:(NSInteger)buttonIndex {
+    if (buttonIndex != [actionSheet cancelButtonIndex]) {
+        [self initializeGame];
+    }
 }
 
 - (IBAction)hintMove:(id)sender {
