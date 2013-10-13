@@ -154,12 +154,20 @@ short MakeMove(PBOARD pBoard, short sX, short sY, short sWho, BOOL fSimple, BOOL
 	}
 	
 	// Draw text
-	rectPaint = CGRectMake(0, (m_point.y - 24) / 2, (2 * m_point.x) + (DIVISIONS * m_block), m_point.y);
+    UIFont *font;
+    if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone) {
+        font = [UIFont systemFontOfSize:14];
+    } else {
+        font = [UIFont systemFontOfSize:28];
+    }
+	rectPaint = CGRectMake(0, (m_point.y - font.pointSize / 2) / 2, (2 * m_point.x) + (DIVISIONS * m_block), m_point.y);
 	if (self.fDisplayText && CGRectIntersectsRect(rectPaint, rect))
 	{
-		[[UIColor whiteColor] set];
-		UIFont *font = [UIFont systemFontOfSize:20];
-		[self.statusText drawInRect:rectPaint withFont:font lineBreakMode:NSLineBreakByWordWrapping alignment:NSTextAlignmentCenter];
+        NSMutableParagraphStyle *paragraphStyle = [[NSMutableParagraphStyle defaultParagraphStyle] mutableCopy];
+        paragraphStyle.lineBreakMode = NSLineBreakByWordWrapping;
+        paragraphStyle.alignment = NSTextAlignmentCenter;
+        NSDictionary *dictionaryWhite = @{NSFontAttributeName: font,  NSParagraphStyleAttributeName: paragraphStyle, NSForegroundColorAttributeName: [UIColor whiteColor]};
+        [self.statusText drawInRect:rectPaint withAttributes:dictionaryWhite];
 	}
 }
 

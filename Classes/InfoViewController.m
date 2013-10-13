@@ -19,7 +19,7 @@
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
-        self.contentSizeForViewInPopover = CGSizeMake(320.0, 480.0);
+        self.preferredContentSize = CGSizeMake(320.0, 568.0);
     }
     return self;
 }
@@ -32,6 +32,17 @@
 	self.playerStartsSwitch.on = [defaults boolForKey:kPlayerStartsKey];
 	self.soundSwitch.on = [defaults boolForKey:kSoundKey];
 	self.levelControl.selectedSegmentIndex = [defaults integerForKey:kLevelKey];
+    self.textView.editable = NO;
+    if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone) {
+        self.view.backgroundColor = [UIColor whiteColor];
+    }
+}
+
+- (void)viewWillAppear:(BOOL)animated
+{
+    NSRange r = {0,0};
+    [self.textView scrollRangeToVisible:r];
+    [super viewWillAppear:animated];
 }
 
 - (IBAction)done:(id)sender {

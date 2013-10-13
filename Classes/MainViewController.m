@@ -39,7 +39,7 @@
 	[super viewDidLoad];
 
 	// Initialize the randomizer
-	srandom(time(NULL));
+	srandom((int)time(NULL));
     
     // Create system sounds
     NSString *path = [[NSBundle mainBundle] pathForResource:@"new" ofType:@"wav"];
@@ -194,6 +194,24 @@
     AudioServicesDisposeSystemSoundID(wonId);
 }
 
+- (void)viewDidAppear:(BOOL)animated
+{
+    [super viewDidAppear:animated];
+    
+	// Draw the view
+	[self.view setNeedsDisplay];
+    
+    // Change the location of the buttons
+    UIInterfaceOrientation orientation = [[UIApplication sharedApplication] statusBarOrientation];
+    if (UIInterfaceOrientationIsLandscape(orientation)) {
+        gameButton.frame = CGRectMake(20, self.view.bounds.size.height - 82, 90, 30);
+        hintButton.frame = CGRectMake(20, self.view.bounds.size.height - 47, 90, 30);
+    } else {
+        gameButton.frame = CGRectMake(20, self.view.bounds.size.height - 47, 90, 30);
+        hintButton.frame = CGRectMake(118, self.view.bounds.size.height - 47, 60, 30);
+    }
+}
+
 - (void) playSound:(SystemSoundID)soundID {
 	if (self.m_sound) {
 		AudioServicesPlaySystemSound(soundID);
@@ -215,6 +233,7 @@
 	// Initialize the game
     BOARD boardHilf;
 	self.gameover = NO;
+    self.hintButton.hidden = NO;
 	for(short sX = 0; sX < DIVISIONS; sX++)
 		for(short sY = 0; sY < DIVISIONS; sY++)
 			boardHilf.sField[sX][sY] = EMPTY;
@@ -290,6 +309,7 @@
 		{
 			// Spiel ist vorbei
 			self.gameover = TRUE;
+            self.hintButton.hidden = YES;
 			Result(mainView.board, &sComputer, &sPlayer);
 			
 			if(sComputer == sPlayer)
@@ -425,6 +445,7 @@
 				{
 					// Spiel ist vorbei
 					self.gameover = TRUE;
+                    self.hintButton.hidden = YES;
 					Result(mainView.board, &sComputer, &sPlayer);
 					
 					if(sComputer == sPlayer)

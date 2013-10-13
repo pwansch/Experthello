@@ -20,6 +20,7 @@
 @property (strong, nonatomic) IBOutlet UISwitch *playerStartsSwitch;
 @property (strong, nonatomic) IBOutlet UISwitch *soundSwitch;
 @property (strong, nonatomic) IBOutlet UISegmentedControl *levelControl;
+@property (strong, nonatomic) IBOutlet UITextView *textView;
 
 - (IBAction)done:(id)sender;
 
