@@ -19,16 +19,19 @@
 		289233B00DB2D0DB0083E9F9 /* InfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 289233AD0DB2D0DB0083E9F9 /* InfoViewController.m */; };
 		AF507C1F122F3B5500ADF8BA /* experthello.png in Resources */ = {isa = PBXBuildFile; fileRef = AF507C1E122F3B5500ADF8BA /* experthello.png */; };
 		AF5A1EF017852A79009FC99F /* MainWindow-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF5A1EEF17852A79009FC99F /* MainWindow-iPad.xib */; };
+		AF61F7AA180B568F00014A15 /* experthello-76x76.png in Resources */ = {isa = PBXBuildFile; fileRef = AF61F7A7180B568F00014A15 /* experthello-76x76.png */; };
+		AF61F7AB180B568F00014A15 /* experthello-120x120.png in Resources */ = {isa = PBXBuildFile; fileRef = AF61F7A8180B568F00014A15 /* experthello-120x120.png */; };
+		AF61F7AC180B568F00014A15 /* experthello-152x152.png in Resources */ = {isa = PBXBuildFile; fileRef = AF61F7A9180B568F00014A15 /* experthello-152x152.png */; };
+		AF61F7B3180B575400014A15 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AF61F7AD180B575400014A15 /* Default@2x.png */; };
+		AF61F7B4180B575400014A15 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AF61F7AE180B575400014A15 /* Default-568h@2x.png */; };
+		AF61F7B5180B575400014A15 /* Default-Landscape.png in Resources */ = {isa = PBXBuildFile; fileRef = AF61F7AF180B575400014A15 /* Default-Landscape.png */; };
+		AF61F7B6180B575400014A15 /* Default-Landscape@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AF61F7B0180B575400014A15 /* Default-Landscape@2x.png */; };
+		AF61F7B7180B575400014A15 /* Default-Portrait.png in Resources */ = {isa = PBXBuildFile; fileRef = AF61F7B1180B575400014A15 /* Default-Portrait.png */; };
+		AF61F7B8180B575400014A15 /* Default-Portrait@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AF61F7B2180B575400014A15 /* Default-Portrait@2x.png */; };
 		AF6263E8122619C100CD82B6 /* Algorithm.m in Sources */ = {isa = PBXBuildFile; fileRef = AF6263E7122619C100CD82B6 /* Algorithm.m */; };
 		AF8881B0122CA6B7007E7D7B /* hint.wav in Resources */ = {isa = PBXBuildFile; fileRef = AF8881AF122CA6B7007E7D7B /* hint.wav */; };
 		AFA97DBD122B3A5E004C01AD /* new.wav in Resources */ = {isa = PBXBuildFile; fileRef = AFA97DBC122B3A5E004C01AD /* new.wav */; };
 		AFA97E6D122B5FE6004C01AD /* ThreadInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = AFA97E6C122B5FE6004C01AD /* ThreadInfo.m */; };
-		AFB29E331798E3E600C7F52D /* experthello-114x114.png in Resources */ = {isa = PBXBuildFile; fileRef = AFB29E321798E3E600C7F52D /* experthello-114x114.png */; };
-		AFB29E361798E5AE00C7F52D /* experthello-144x144.png in Resources */ = {isa = PBXBuildFile; fileRef = AFB29E341798E5AE00C7F52D /* experthello-144x144.png */; };
-		AFB29E371798E5AE00C7F52D /* experthello-72x72.png in Resources */ = {isa = PBXBuildFile; fileRef = AFB29E351798E5AE00C7F52D /* experthello-72x72.png */; };
-		AFB29E3F1798E7D500C7F52D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AFB29E3E1798E7D500C7F52D /* Default-568h@2x.png */; };
-		AFB29E411798E7FD00C7F52D /* Default-Landscape@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = AFB29E401798E7FD00C7F52D /* Default-Landscape@2x~ipad.png */; };
-		AFB29E431798E81800C7F52D /* Default-Portrait@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = AFB29E421798E81800C7F52D /* Default-Portrait@2x~ipad.png */; };
 		AFC0FABA1797849100B7F9C6 /* InfoViewController-iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = AFC0FAB91797849100B7F9C6 /* InfoViewController-iPad.m */; };
 		AFC8223D1226147D00B33949 /* MainView.m in Sources */ = {isa = PBXBuildFile; fileRef = AFC8223C1226147D00B33949 /* MainView.m */; };
 		AFE22BF512294D130065098E /* pass.wav in Resources */ = {isa = PBXBuildFile; fileRef = AFE22BEF12294D130065098E /* pass.wav */; };
@@ -59,18 +62,21 @@
 		8D1107310486CEB800E47090 /* Experthello-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Experthello-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 		AF507C1E122F3B5500ADF8BA /* experthello.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = experthello.png; sourceTree = "<group>"; };
 		AF5A1EEF17852A79009FC99F /* MainWindow-iPad.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = "MainWindow-iPad.xib"; path = "iPad/MainWindow-iPad.xib"; sourceTree = "<group>"; };
+		AF61F7A7180B568F00014A15 /* experthello-76x76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "experthello-76x76.png"; sourceTree = "<group>"; };
+		AF61F7A8180B568F00014A15 /* experthello-120x120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "experthello-120x120.png"; sourceTree = "<group>"; };
+		AF61F7A9180B568F00014A15 /* experthello-152x152.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "experthello-152x152.png"; sourceTree = "<group>"; };
+		AF61F7AD180B575400014A15 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		AF61F7AE180B575400014A15 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		AF61F7AF180B575400014A15 /* Default-Landscape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape.png"; sourceTree = "<group>"; };
+		AF61F7B0180B575400014A15 /* Default-Landscape@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape@2x.png"; sourceTree = "<group>"; };
+		AF61F7B1180B575400014A15 /* Default-Portrait.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait.png"; sourceTree = "<group>"; };
+		AF61F7B2180B575400014A15 /* Default-Portrait@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait@2x.png"; sourceTree = "<group>"; };
 		AF6263E6122619C100CD82B6 /* Algorithm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Algorithm.h; sourceTree = "<group>"; };
 		AF6263E7122619C100CD82B6 /* Algorithm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Algorithm.m; sourceTree = "<group>"; };
 		AF8881AF122CA6B7007E7D7B /* hint.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = hint.wav; sourceTree = "<group>"; };
 		AFA97DBC122B3A5E004C01AD /* new.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = new.wav; sourceTree = "<group>"; };
 		AFA97E6B122B5FE6004C01AD /* ThreadInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThreadInfo.h; sourceTree = "<group>"; };
 		AFA97E6C122B5FE6004C01AD /* ThreadInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThreadInfo.m; sourceTree = "<group>"; };
-		AFB29E321798E3E600C7F52D /* experthello-114x114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "experthello-114x114.png"; sourceTree = "<group>"; };
-		AFB29E341798E5AE00C7F52D /* experthello-144x144.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "experthello-144x144.png"; sourceTree = "<group>"; };
-		AFB29E351798E5AE00C7F52D /* experthello-72x72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "experthello-72x72.png"; sourceTree = "<group>"; };
-		AFB29E3E1798E7D500C7F52D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		AFB29E401798E7FD00C7F52D /* Default-Landscape@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape@2x~ipad.png"; sourceTree = "<group>"; };
-		AFB29E421798E81800C7F52D /* Default-Portrait@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait@2x~ipad.png"; sourceTree = "<group>"; };
 		AFC0FAB81797849100B7F9C6 /* InfoViewController-iPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "InfoViewController-iPad.h"; sourceTree = "<group>"; };
 		AFC0FAB91797849100B7F9C6 /* InfoViewController-iPad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "InfoViewController-iPad.m"; sourceTree = "<group>"; };
 		AFC8223B1226147D00B33949 /* MainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainView.h; sourceTree = "<group>"; };
@@ -167,13 +173,16 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				AFB29E3E1798E7D500C7F52D /* Default-568h@2x.png */,
-				AFB29E421798E81800C7F52D /* Default-Portrait@2x~ipad.png */,
-				AFB29E401798E7FD00C7F52D /* Default-Landscape@2x~ipad.png */,
+				AF61F7AD180B575400014A15 /* Default@2x.png */,
+				AF61F7AE180B575400014A15 /* Default-568h@2x.png */,
+				AF61F7AF180B575400014A15 /* Default-Landscape.png */,
+				AF61F7B0180B575400014A15 /* Default-Landscape@2x.png */,
+				AF61F7B1180B575400014A15 /* Default-Portrait.png */,
+				AF61F7B2180B575400014A15 /* Default-Portrait@2x.png */,
+				AF61F7A7180B568F00014A15 /* experthello-76x76.png */,
+				AF61F7A8180B568F00014A15 /* experthello-120x120.png */,
+				AF61F7A9180B568F00014A15 /* experthello-152x152.png */,
 				AF507C1E122F3B5500ADF8BA /* experthello.png */,
-				AFB29E351798E5AE00C7F52D /* experthello-72x72.png */,
-				AFB29E321798E3E600C7F52D /* experthello-114x114.png */,
-				AFB29E341798E5AE00C7F52D /* experthello-144x144.png */,
 				AFE22BE012294B1C0065098E /* WAV Files */,
 				280E754A0DD40C5E005A515E /* InfoView.xib */,
 				280E754B0DD40C5E005A515E /* MainView.xib */,
@@ -254,7 +263,7 @@
 		29B97313FDCFA39411CA2CEA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0430;
+				LastUpgradeCheck = 0500;
 			};
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Experthello" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -284,22 +293,25 @@
 				280E754D0DD40C5E005A515E /* InfoView.xib in Resources */,
 				280E754E0DD40C5E005A515E /* MainView.xib in Resources */,
 				280E754F0DD40C5E005A515E /* MainWindow.xib in Resources */,
+				AF61F7B8180B575400014A15 /* Default-Portrait@2x.png in Resources */,
+				AF61F7AA180B568F00014A15 /* experthello-76x76.png in Resources */,
 				AFE22BF512294D130065098E /* pass.wav in Resources */,
 				AFE22BF612294D130065098E /* illegal.wav in Resources */,
+				AF61F7B7180B575400014A15 /* Default-Portrait.png in Resources */,
 				AFE22BF712294D130065098E /* place.wav in Resources */,
 				AFE22BF812294D130065098E /* draw.wav in Resources */,
 				AFE22BF912294D130065098E /* lost.wav in Resources */,
+				AF61F7B3180B575400014A15 /* Default@2x.png in Resources */,
 				AFE22BFA12294D130065098E /* won.wav in Resources */,
+				AF61F7B4180B575400014A15 /* Default-568h@2x.png in Resources */,
 				AFA97DBD122B3A5E004C01AD /* new.wav in Resources */,
+				AF61F7AB180B568F00014A15 /* experthello-120x120.png in Resources */,
 				AF8881B0122CA6B7007E7D7B /* hint.wav in Resources */,
 				AF507C1F122F3B5500ADF8BA /* experthello.png in Resources */,
 				AF5A1EF017852A79009FC99F /* MainWindow-iPad.xib in Resources */,
-				AFB29E331798E3E600C7F52D /* experthello-114x114.png in Resources */,
-				AFB29E361798E5AE00C7F52D /* experthello-144x144.png in Resources */,
-				AFB29E371798E5AE00C7F52D /* experthello-72x72.png in Resources */,
-				AFB29E3F1798E7D500C7F52D /* Default-568h@2x.png in Resources */,
-				AFB29E411798E7FD00C7F52D /* Default-Landscape@2x~ipad.png in Resources */,
-				AFB29E431798E81800C7F52D /* Default-Portrait@2x~ipad.png in Resources */,
+				AF61F7AC180B568F00014A15 /* experthello-152x152.png in Resources */,
+				AF61F7B6180B575400014A15 /* Default-Landscape@2x.png in Resources */,
+				AF61F7B5180B575400014A15 /* Default-Landscape.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -328,6 +340,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
@@ -336,7 +349,8 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Experthello_Prefix.pch;
 				INFOPLIST_FILE = "Experthello-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = Experthello;
 				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -347,6 +361,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
@@ -354,10 +369,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Experthello_Prefix.pch;
 				INFOPLIST_FILE = "Experthello-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = Experthello;
-				PROVISIONING_PROFILE = "";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				PROVISIONING_PROFILE = "D8E56122-EC75-4472-BAC2-F7B896F74046";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "D8E56122-EC75-4472-BAC2-F7B896F74046";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -366,11 +381,11 @@
 		C01FCF4F08A954540054247B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -378,7 +393,6 @@
 		C01FCF5008A954540054247B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
@@ -398,7 +412,7 @@
 				1D6058950D05DD3E006BFB54 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Debug;
+			defaultConfigurationName = Release;
 		};
 		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Experthello" */ = {
 			isa = XCConfigurationList;
@@ -407,7 +421,7 @@
 				C01FCF5008A954540054247B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Debug;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
